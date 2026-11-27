@@ -1,0 +1,718 @@
+{
+ "tool": "smoke_load.py",
+ "dll": "C:\\Users\\codexvm\\Desktop\\ws\\data\\result\\libugmath\\bin\\libugmath.dll",
+ "nxbin": "C:\\Users\\codexvm\\Desktop\\ws\\raw\\nx2412\\NXBIN",
+ "setdll_rc": true,
+ "load_rc": true,
+ "load_error": 0,
+ "libsyss_path": "C:\\Users\\codexvm\\Desktop\\ws\\raw\\nx2412\\NXBIN\\libsyss.dll",
+ "module_path": "C:\\Users\\codexvm\\Desktop\\ws\\data\\result\\libugmath\\bin\\libugmath.dll",
+ "tests": [
+  {
+   "name": "?acom@@3Uacom_s@@A",
+   "category": "data",
+   "call": "GetProcAddress + read 64 bytes",
+   "result": "00000000000000000000000000000000",
+   "verdict": "PASS",
+   "detail": "size=4240 in_module=True"
+  },
+  {
+   "name": "?delaunay_vtable@@3Udelaunay_vtable_s@@A",
+   "category": "data",
+   "call": "GetProcAddress + read 64 bytes",
+   "result": "00000000000000000000000000000000",
+   "verdict": "PASS",
+   "detail": "size=868 in_module=True"
+  },
+  {
+   "name": "?gbspline_vtable@@3Ugbspline_vtable_t@@A",
+   "category": "data",
+   "call": "GetProcAddress + read 64 bytes",
+   "result": "00000000000000000000000000000000",
+   "verdict": "PASS",
+   "detail": "size=112 in_module=True"
+  },
+  {
+   "name": "?spint@@3Uspint_s@@A",
+   "category": "data",
+   "call": "GetProcAddress + read 64 bytes",
+   "result": "00000000000000000000000000000000",
+   "verdict": "PASS",
+   "detail": "size=304 in_module=True"
+  },
+  {
+   "name": "?SOLVE_solve_2equations@@YAHQEAY01NQEAN1@Z",
+   "category": "SOLVE",
+   "call": "2x2",
+   "result": {
+    "rc": 0,
+    "x": [
+     1.4,
+     2.2
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=0 x={1.4,2.2}"
+  },
+  {
+   "name": "?SOLVE_solve_3equations@@YAHQEAY02NQEAN1@Z",
+   "category": "SOLVE",
+   "call": "3x3",
+   "result": {
+    "rc": 0,
+    "x": [
+     1.0,
+     2.0,
+     3.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=0 x={1,2,3}"
+  },
+  {
+   "name": "?SOLVE_quadratic@@YAHQEBNQEAN@Z",
+   "category": "SOLVE",
+   "call": "x^2-1=0",
+   "result": {
+    "rc": 2,
+    "roots": [
+     -1.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=2 roots={-1,1}"
+  },
+  {
+   "name": "?SOLVE_cubic@@YAHQEBNQEAN@Z",
+   "category": "SOLVE",
+   "call": "x^3-1=0",
+   "result": {
+    "rc": 1,
+    "root0": 1.0
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=1 root=1"
+  },
+  {
+   "name": "?SOLVE_lu_solver@@YAHPEAPEAN0HH@Z",
+   "category": "SOLVE",
+   "call": "LU 2x2",
+   "result": {
+    "rc": 0,
+    "B": [
+     1.4,
+     2.2
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=0 B={1.4,2.2}"
+  },
+  {
+   "name": "?SOLVE_lu_solver_with_abort@@YAHPEAPEAN0HHP6A_NXZ@Z",
+   "category": "SOLVE",
+   "call": "LU 2x2",
+   "result": {
+    "rc": 0,
+    "B": [
+     1.4,
+     2.2
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=0 B={1.4,2.2}"
+  },
+  {
+   "name": "?ludcmp_a_with_abort@@YAHPEAPEANHPEAHPEANP6A_NXZ@Z",
+   "category": "SOLVE",
+   "call": "ludcmp 2x2",
+   "result": {
+    "rc": 0,
+    "indx": [
+     0,
+     1
+    ],
+    "d": 1.0
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=0"
+  },
+  {
+   "name": "?MTX3_init@@YAHPEBUVector3@Math@UGS@@0PEAUMatrix3@23@@Z",
+   "category": "MTX",
+   "call": "",
+   "result": {
+    "rc": 1,
+    "out": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=1 I3"
+  },
+  {
+   "name": "?MTX3_init_z@@YAHPEBUVector3@Math@UGS@@PEAUMatrix3@23@@Z",
+   "category": "MTX",
+   "call": "",
+   "result": {
+    "rc": 1,
+    "out": [
+     1.0,
+     0.0,
+     -0.0,
+     -0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=1 I3"
+  },
+  {
+   "name": "?MTX3_init_y_z@@YAHPEBUVector3@Math@UGS@@0PEAUMatrix3@23@@Z",
+   "category": "MTX",
+   "call": "",
+   "result": {
+    "rc": 1,
+    "out": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "rc recorded"
+  },
+  {
+   "name": "?MTX3_init_x@@YAHPEBUVector3@Math@UGS@@PEAUMatrix3@23@@Z",
+   "category": "MTX",
+   "call": "",
+   "result": {
+    "rc": 1,
+    "out": [
+     1.0,
+     0.0,
+     0.0,
+     -0.0,
+     1.0,
+     0.0,
+     0.0,
+     -0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "rc recorded"
+  },
+  {
+   "name": "?MTX3_init_x_y_z@@YAHPEBUVector3@Math@UGS@@00PEAUMatrix3@23@@Z",
+   "category": "MTX",
+   "call": "",
+   "result": {
+    "rc": 1,
+    "out": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=1 I3"
+  },
+  {
+   "name": "?MTX3_multiply@@YAXPEBUMatrix3@Math@UGS@@0PEAU123@@Z",
+   "category": "MTX",
+   "call": "I3*I3",
+   "result": {
+    "out": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect I3"
+  },
+  {
+   "name": "?MTX3_rot_about_axis@@YAXNPEBUVector3@Math@UGS@@PEAUMatrix3@23@@Z",
+   "category": "MTX",
+   "call": "rot z pi/2",
+   "result": {
+    "out": [
+     6.123233995736766e-17,
+     -1.0,
+     0.0,
+     1.0,
+     6.123233995736766e-17,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect {0,-1,0,1,0,0,0,0,1}"
+  },
+  {
+   "name": "?MTX3_is_equal@@YA_NPEBUMatrix3@Math@UGS@@0N@Z",
+   "category": "MTX",
+   "call": "I3==I3",
+   "result": {
+    "rc": true
+   },
+   "verdict": "PASS",
+   "detail": "expect true"
+  },
+  {
+   "name": "?MTX3_is_identity@@YA_NPEBUMatrix3@Math@UGS@@N@Z",
+   "category": "MTX",
+   "call": "I3 identity",
+   "result": {
+    "rc": true
+   },
+   "verdict": "PASS",
+   "detail": "expect true"
+  },
+  {
+   "name": "?MTX4_invert@@YAHPEBUTransformMatrix@Math@UGS@@PEAU123@@Z",
+   "category": "MTX",
+   "call": "invert I4",
+   "result": {
+    "rc": 0,
+    "out": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=0 I4"
+  },
+  {
+   "name": "?MTX4_multiply@@YAXPEBUTransformMatrix@Math@UGS@@0PEAU123@@Z",
+   "category": "MTX",
+   "call": "I4*I4",
+   "result": {
+    "out": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect I4"
+  },
+  {
+   "name": "?MTX4_is_identity@@YA_NPEBUTransformMatrix@Math@UGS@@N@Z",
+   "category": "MTX",
+   "call": "I4 identity",
+   "result": {
+    "rc": true
+   },
+   "verdict": "PASS",
+   "detail": "expect true"
+  },
+  {
+   "name": "?MTX4_is_equal@@YA_NPEBUTransformMatrix@Math@UGS@@0N@Z",
+   "category": "MTX",
+   "call": "I4==I4",
+   "result": {
+    "rc": true
+   },
+   "verdict": "PASS",
+   "detail": "expect true"
+  },
+  {
+   "name": "?MTX4_mirror@@YAHPEBUPoint3@Math@UGS@@PEBUVector3@23@PEAUTransformMatrix@23@@Z",
+   "category": "MTX",
+   "call": "mirror z=0",
+   "result": {
+    "rc": 0,
+    "out": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     -1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect diag(1,1,-1,1)"
+  },
+  {
+   "name": "?VEC3_angle_between@@YANPEBUVector3@Math@UGS@@00@Z",
+   "category": "VEC",
+   "call": "angle x,y about z",
+   "result": {
+    "rc": 1.5707963267948966
+   },
+   "verdict": "PASS",
+   "detail": "expect pi/2"
+  },
+  {
+   "name": "?VEC3_unitize@@YAHPEBUVector3@Math@UGS@@NPEANPEAU123@@Z",
+   "category": "VEC",
+   "call": "unitize(1,2,2)",
+   "result": {
+    "rc": 1,
+    "len": 3.0,
+    "out": [
+     0.3333333333333333,
+     0.6666666666666666,
+     0.6666666666666666
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect len=3 (1/3,2/3,2/3)"
+  },
+  {
+   "name": "?VEC3_is_parallel@@YA_NPEBUVector3@Math@UGS@@0N@Z",
+   "category": "VEC",
+   "call": "parallel x,2x",
+   "result": {
+    "rc": true
+   },
+   "verdict": "PASS",
+   "detail": "expect true"
+  },
+  {
+   "name": "?VEC3_is_perpendicular@@YA_NPEBUVector3@Math@UGS@@0N@Z",
+   "category": "VEC",
+   "call": "perp x,y",
+   "result": {
+    "rc": true
+   },
+   "verdict": "PASS",
+   "detail": "expect true"
+  },
+  {
+   "name": "?VEC3_ask_perpendicular@@YAHPEBUVector3@Math@UGS@@PEAU123@@Z",
+   "category": "VEC",
+   "call": "perp of x",
+   "result": {
+    "rc": 1,
+    "out": [
+     -0.0,
+     1.0,
+     0.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect rc=1 (0,1,0)"
+  },
+  {
+   "name": "??0Box3D@Math@UGS@@QEAA@XZ",
+   "category": "CTOR",
+   "call": "Box3D default",
+   "result": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "origin": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "length": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "dirty": 0,
+    "cached": 0
+   },
+   "verdict": "PASS",
+   "detail": "expect vptr in module, I3, zeros"
+  },
+  {
+   "name": "??0Box3D@Math@UGS@@QEAA@AEBV012@@Z",
+   "category": "CTOR",
+   "call": "Box3D copy",
+   "result": {
+    "bytes_equal": true
+   },
+   "verdict": "PASS",
+   "detail": "expect 336B equal"
+  },
+  {
+   "name": "??0Box3D@Math@UGS@@QEAA@AEBUMatrix3@12@AEBUPoint3@12@QEBN@Z",
+   "category": "CTOR",
+   "call": "Box3D(mtx,origin,len)",
+   "result": {
+    "matrix": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "origin": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "length": [
+     4.0,
+     5.0,
+     6.0
+    ],
+    "dirty": 0
+   },
+   "verdict": "PASS",
+   "detail": "expect I3 (1,2,3) (4,5,6)"
+  },
+  {
+   "name": "??0Vector3f@Math@UGS@@QEAA@XZ",
+   "category": "CTOR",
+   "call": "Vector3f default",
+   "result": {
+    "xyz": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect (0,0,0)"
+  },
+  {
+   "name": "??0Vector3f@Math@UGS@@QEAA@MMM@Z",
+   "category": "CTOR",
+   "call": "Vector3f(1.5,2.5,3.5)",
+   "result": {
+    "xyz": [
+     1.5,
+     2.5,
+     3.5
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect (1.5,2.5,3.5)"
+  },
+  {
+   "name": "??0Vector3f@Math@UGS@@QEAA@NNN@Z",
+   "category": "CTOR",
+   "call": "Vector3f(1.25,2.5,3.75)",
+   "result": {
+    "xyz": [
+     1.25,
+     2.5,
+     3.75
+    ]
+   },
+   "verdict": "PASS",
+   "detail": "expect (1.25,2.5,3.75)"
+  },
+  {
+   "name": "??0Vector3f@Math@UGS@@QEAA@AEBU012@@Z",
+   "category": "CTOR",
+   "call": "Vector3f copy",
+   "result": {
+    "bytes_equal": true
+   },
+   "verdict": "PASS",
+   "detail": "expect 12B equal"
+  },
+  {
+   "name": "?merrorlevel@@YAHXZ",
+   "category": "ERROR",
+   "call": "merrorlevel",
+   "result": {
+    "rc": 0
+   },
+   "verdict": "PASS",
+   "detail": "expect 0"
+  },
+  {
+   "name": "?merrornum@@YAHXZ",
+   "category": "ERROR",
+   "call": "merrornum",
+   "result": {
+    "rc": 0
+   },
+   "verdict": "PASS",
+   "detail": "expect 0"
+  },
+  {
+   "name": "?merrorpush@@YAXQEADHH@Z",
+   "category": "ERROR",
+   "call": "push(7,2)",
+   "result": {
+    "level": 2,
+    "num": 7
+   },
+   "verdict": "PASS",
+   "detail": "expect 2,7"
+  },
+  {
+   "name": "?merrorflush@@YAHXZ",
+   "category": "ERROR",
+   "call": "flush",
+   "result": {
+    "rc": 0,
+    "level": 0,
+    "num": 0
+   },
+   "verdict": "PASS",
+   "detail": "expect 0/0/0"
+  },
+  {
+   "name": "?EQ_ask_number_tolerance@@YANXZ",
+   "category": "ERROR",
+   "call": "number tolerance",
+   "result": {
+    "rc": 1e-10
+   },
+   "verdict": "PASS",
+   "detail": "expect positive"
+  },
+  {
+   "name": "?SetGlobalTolerances@Math@UGS@@YAX$$QEAV?$unique_ptr@VITolerances@Math@UGS@@U?$default_delete@VITolerances@Math@UGS@@@std@@@std@@@Z",
+   "category": "ERROR",
+   "call": "install fake tolerance",
+   "result": {
+    "GetThreadTolerances": "0x23314124170"
+   },
+   "verdict": "PASS",
+   "detail": "expect fake address"
+  },
+  {
+   "name": "?EQ_ask_length_tolerance@@YANXZ",
+   "category": "ERROR",
+   "call": "after init",
+   "result": {
+    "rc": 1e-06
+   },
+   "verdict": "PASS",
+   "detail": "expect 1e-6"
+  },
+  {
+   "name": "?EQ_ask_number_tolerance@@YANXZ",
+   "category": "ERROR",
+   "call": "after init",
+   "result": {
+    "rc": 1e-10
+   },
+   "verdict": "PASS",
+   "detail": "expect 1e-10"
+  }
+ ],
+ "data_exports": [
+  {
+   "name": "?acom@@3Uacom_s@@A",
+   "addr": "0x7ffcb2ae3750",
+   "in_module": true,
+   "size_evidence": 4240,
+   "readable": true,
+   "first_bytes_hex": "00000000000000000000000000000000"
+  },
+  {
+   "name": "?delaunay_vtable@@3Udelaunay_vtable_s@@A",
+   "addr": "0x7ffcb2ae4850",
+   "in_module": true,
+   "size_evidence": 868,
+   "readable": true,
+   "first_bytes_hex": "00000000000000000000000000000000"
+  },
+  {
+   "name": "?gbspline_vtable@@3Ugbspline_vtable_t@@A",
+   "addr": "0x7ffcb2ae47e0",
+   "in_module": true,
+   "size_evidence": 112,
+   "readable": true,
+   "first_bytes_hex": "00000000000000000000000000000000"
+  },
+  {
+   "name": "?spint@@3Uspint_s@@A",
+   "addr": "0x7ffcb2ae3620",
+   "in_module": true,
+   "size_evidence": 304,
+   "readable": true,
+   "first_bytes_hex": "00000000000000000000000000000000"
+  }
+ ],
+ "module_base": "0x7ffcb2a10000",
+ "summary": {
+  "total": 45,
+  "pass": 45,
+  "fail": 0
+ }
+}

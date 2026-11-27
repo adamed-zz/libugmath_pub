@@ -1,0 +1,4966 @@
+{
+ "tool": "verify_exports.py",
+ "generated_utc": "2026-11-27T14:16:52Z",
+ "reference": {
+  "source": "raw/nx2412/NXBIN/libugmath.dll",
+  "sha256": "93b21e0d55f3d907d0a9eee3f618c29eea78d29ca4645ba13113e5a53751e17d",
+  "ordinal_base": 1
+ },
+ "new": {
+  "source": "data/result/libugmath/bin/libugmath.dll",
+  "sha256": "3c913759e68bdf0597098218c96ac7e93c33c9a4c8f19e87a32c944952562e14",
+  "ordinal_base": 1
+ },
+ "result": {
+  "pass": true,
+  "missing": [],
+  "extra": [],
+  "ordinal_mismatch": [],
+  "ref_named": 1235,
+  "new_named": 1235,
+  "ref_total": 1235,
+  "new_total": 1235
+ },
+ "ref_exports": [
+  {
+   "ordinal": 1,
+   "name": "??0Box3D@Math@UGS@@QEAA@AEBUMatrix3@12@AEBUPoint3@12@QEBN@Z"
+  },
+  {
+   "ordinal": 2,
+   "name": "??0Box3D@Math@UGS@@QEAA@AEBV012@@Z"
+  },
+  {
+   "ordinal": 3,
+   "name": "??0Box3D@Math@UGS@@QEAA@XZ"
+  },
+  {
+   "ordinal": 4,
+   "name": "??0ClipBounds@Clip@Math@UGS@@QEAA@QEBMHH@Z"
+  },
+  {
+   "ordinal": 5,
+   "name": "??0ClipBounds@Clip@Math@UGS@@QEAA@QEBNHH@Z"
+  },
+  {
+   "ordinal": 6,
+   "name": "??0ClipBounds@Clip@Math@UGS@@QEAA@XZ"
+  },
+  {
+   "ordinal": 7,
+   "name": "??0Clipper@Clip@Math@UGS@@AEAA@XZ"
+  },
+  {
+   "ordinal": 8,
+   "name": "??0CurvePoint@Clip@Math@UGS@@QEAA@QEBMMH@Z"
+  },
+  {
+   "ordinal": 9,
+   "name": "??0CurvePoint@Clip@Math@UGS@@QEAA@QEBNNH@Z"
+  },
+  {
+   "ordinal": 10,
+   "name": "??0CurvePoint@Clip@Math@UGS@@QEAA@XZ"
+  },
+  {
+   "ordinal": 11,
+   "name": "??0Graph@Math@UGS@@QEAA@AEBV012@@Z"
+  },
+  {
+   "ordinal": 12,
+   "name": "??0Graph@Math@UGS@@QEAA@XZ"
+  },
+  {
+   "ordinal": 13,
+   "name": "??0IAcomParameterAccess@Part@UGS@@QEAA@$$QEAV012@@Z"
+  },
+  {
+   "ordinal": 14,
+   "name": "??0IAcomParameterAccess@Part@UGS@@QEAA@AEBV012@@Z"
+  },
+  {
+   "ordinal": 15,
+   "name": "??0IAcomParameterAccess@Part@UGS@@QEAA@XZ"
+  },
+  {
+   "ordinal": 16,
+   "name": "??0Solver_data_s@@QEAA@AEBU0@@Z"
+  },
+  {
+   "ordinal": 17,
+   "name": "??0Solver_data_s@@QEAA@H@Z"
+  },
+  {
+   "ordinal": 18,
+   "name": "??0Vector3f@Math@UGS@@QEAA@AEBU012@@Z"
+  },
+  {
+   "ordinal": 19,
+   "name": "??0Vector3f@Math@UGS@@QEAA@MMM@Z"
+  },
+  {
+   "ordinal": 20,
+   "name": "??0Vector3f@Math@UGS@@QEAA@NNN@Z"
+  },
+  {
+   "ordinal": 21,
+   "name": "??0Vector3f@Math@UGS@@QEAA@PEAM@Z"
+  },
+  {
+   "ordinal": 22,
+   "name": "??0Vector3f@Math@UGS@@QEAA@PEAN@Z"
+  },
+  {
+   "ordinal": 23,
+   "name": "??0Vector3f@Math@UGS@@QEAA@V?$initializer_list@M@std@@@Z"
+  },
+  {
+   "ordinal": 24,
+   "name": "??0Vector3f@Math@UGS@@QEAA@XZ"
+  },
+  {
+   "ordinal": 25,
+   "name": "??1Box3D@Math@UGS@@UEAA@XZ"
+  },
+  {
+   "ordinal": 26,
+   "name": "??1Clipper@Clip@Math@UGS@@AEAA@XZ"
+  },
+  {
+   "ordinal": 27,
+   "name": "??1Graph@Math@UGS@@QEAA@XZ"
+  },
+  {
+   "ordinal": 28,
+   "name": "??1Solver_data_s@@QEAA@XZ"
+  },
+  {
+   "ordinal": 29,
+   "name": "??2Box3D@Math@UGS@@SAPEAX_K@Z"
+  },
+  {
+   "ordinal": 30,
+   "name": "??2Box3D@Math@UGS@@SAPEAX_KH@Z"
+  },
+  {
+   "ordinal": 31,
+   "name": "??2Box3D@Math@UGS@@SAPEAX_KPEADH@Z"
+  },
+  {
+   "ordinal": 32,
+   "name": "??2Box3D@Math@UGS@@SAPEAX_KPEAX@Z"
+  },
+  {
+   "ordinal": 33,
+   "name": "??2Box3D@Math@UGS@@SAPEAX_KW4align_val_t@std@@@Z"
+  },
+  {
+   "ordinal": 34,
+   "name": "??2Box3D@Math@UGS@@SAPEAX_KW4align_val_t@std@@H@Z"
+  },
+  {
+   "ordinal": 35,
+   "name": "??2StlPoint3Less@UGS@@SAPEAX_K@Z"
+  },
+  {
+   "ordinal": 36,
+   "name": "??2StlPoint3Less@UGS@@SAPEAX_KH@Z"
+  },
+  {
+   "ordinal": 37,
+   "name": "??2StlPoint3Less@UGS@@SAPEAX_KPEADH@Z"
+  },
+  {
+   "ordinal": 38,
+   "name": "??2StlPoint3Less@UGS@@SAPEAX_KPEAX@Z"
+  },
+  {
+   "ordinal": 39,
+   "name": "??2StlPoint3Less@UGS@@SAPEAX_KW4align_val_t@std@@@Z"
+  },
+  {
+   "ordinal": 40,
+   "name": "??2StlPoint3Less@UGS@@SAPEAX_KW4align_val_t@std@@H@Z"
+  },
+  {
+   "ordinal": 41,
+   "name": "??3Box3D@Math@UGS@@SAXPEAX0@Z"
+  },
+  {
+   "ordinal": 42,
+   "name": "??3Box3D@Math@UGS@@SAXPEAX@Z"
+  },
+  {
+   "ordinal": 43,
+   "name": "??3Box3D@Math@UGS@@SAXPEAXH@Z"
+  },
+  {
+   "ordinal": 44,
+   "name": "??3Box3D@Math@UGS@@SAXPEAXPEADH@Z"
+  },
+  {
+   "ordinal": 45,
+   "name": "??3Box3D@Math@UGS@@SAXPEAXW4align_val_t@std@@@Z"
+  },
+  {
+   "ordinal": 46,
+   "name": "??3Box3D@Math@UGS@@SAXPEAXW4align_val_t@std@@H@Z"
+  },
+  {
+   "ordinal": 47,
+   "name": "??3StlPoint3Less@UGS@@SAXPEAX0@Z"
+  },
+  {
+   "ordinal": 48,
+   "name": "??3StlPoint3Less@UGS@@SAXPEAX@Z"
+  },
+  {
+   "ordinal": 49,
+   "name": "??3StlPoint3Less@UGS@@SAXPEAXH@Z"
+  },
+  {
+   "ordinal": 50,
+   "name": "??3StlPoint3Less@UGS@@SAXPEAXPEADH@Z"
+  },
+  {
+   "ordinal": 51,
+   "name": "??3StlPoint3Less@UGS@@SAXPEAXW4align_val_t@std@@@Z"
+  },
+  {
+   "ordinal": 52,
+   "name": "??3StlPoint3Less@UGS@@SAXPEAXW4align_val_t@std@@H@Z"
+  },
+  {
+   "ordinal": 53,
+   "name": "??4Box3D@Math@UGS@@QEAAAEAV012@AEBV012@@Z"
+  },
+  {
+   "ordinal": 54,
+   "name": "??4ClipBounds@Clip@Math@UGS@@QEAAAEAU0123@$$QEAU0123@@Z"
+  },
+  {
+   "ordinal": 55,
+   "name": "??4ClipBounds@Clip@Math@UGS@@QEAAAEAU0123@AEBU0123@@Z"
+  },
+  {
+   "ordinal": 56,
+   "name": "??4Clipper@Clip@Math@UGS@@QEAAAEAV0123@AEBV0123@@Z"
+  },
+  {
+   "ordinal": 57,
+   "name": "??4CurvePoint@Clip@Math@UGS@@QEAAAEAU0123@$$QEAU0123@@Z"
+  },
+  {
+   "ordinal": 58,
+   "name": "??4CurvePoint@Clip@Math@UGS@@QEAAAEAU0123@AEBU0123@@Z"
+  },
+  {
+   "ordinal": 59,
+   "name": "??4Graph@Math@UGS@@QEAAAEAV012@AEBV012@@Z"
+  },
+  {
+   "ordinal": 60,
+   "name": "??4IAcomParameterAccess@Part@UGS@@QEAAAEAV012@$$QEAV012@@Z"
+  },
+  {
+   "ordinal": 61,
+   "name": "??4IAcomParameterAccess@Part@UGS@@QEAAAEAV012@AEBV012@@Z"
+  },
+  {
+   "ordinal": 62,
+   "name": "??4Solver_data_s@@QEAAAEAU0@AEBU0@@Z"
+  },
+  {
+   "ordinal": 63,
+   "name": "??4StlPoint3Less@UGS@@QEAAAEAV01@$$QEAV01@@Z"
+  },
+  {
+   "ordinal": 64,
+   "name": "??4StlPoint3Less@UGS@@QEAAAEAV01@AEBV01@@Z"
+  },
+  {
+   "ordinal": 65,
+   "name": "??4Vector3f@Math@UGS@@QEAAAEAU012@AEBU012@@Z"
+  },
+  {
+   "ordinal": 66,
+   "name": "??AVector3f@Math@UGS@@QEAAAEAMH@Z"
+  },
+  {
+   "ordinal": 67,
+   "name": "??AVector3f@Math@UGS@@QEBAAEBMH@Z"
+  },
+  {
+   "ordinal": 68,
+   "name": "??RStlPoint3Less@UGS@@QEBA_NAEBUPoint3@Math@1@0@Z"
+  },
+  {
+   "ordinal": 69,
+   "name": "??_7Box3D@Math@UGS@@6B@"
+  },
+  {
+   "ordinal": 70,
+   "name": "??_7IAcomParameterAccess@Part@UGS@@6B@"
+  },
+  {
+   "ordinal": 71,
+   "name": "??_UBox3D@Math@UGS@@SAPEAX_K@Z"
+  },
+  {
+   "ordinal": 72,
+   "name": "??_UBox3D@Math@UGS@@SAPEAX_KH@Z"
+  },
+  {
+   "ordinal": 73,
+   "name": "??_UBox3D@Math@UGS@@SAPEAX_KW4align_val_t@std@@@Z"
+  },
+  {
+   "ordinal": 74,
+   "name": "??_UBox3D@Math@UGS@@SAPEAX_KW4align_val_t@std@@H@Z"
+  },
+  {
+   "ordinal": 75,
+   "name": "??_UStlPoint3Less@UGS@@SAPEAX_K@Z"
+  },
+  {
+   "ordinal": 76,
+   "name": "??_UStlPoint3Less@UGS@@SAPEAX_KH@Z"
+  },
+  {
+   "ordinal": 77,
+   "name": "??_UStlPoint3Less@UGS@@SAPEAX_KW4align_val_t@std@@@Z"
+  },
+  {
+   "ordinal": 78,
+   "name": "??_UStlPoint3Less@UGS@@SAPEAX_KW4align_val_t@std@@H@Z"
+  },
+  {
+   "ordinal": 79,
+   "name": "??_VBox3D@Math@UGS@@SAXPEAX@Z"
+  },
+  {
+   "ordinal": 80,
+   "name": "??_VBox3D@Math@UGS@@SAXPEAXH@Z"
+  },
+  {
+   "ordinal": 81,
+   "name": "??_VBox3D@Math@UGS@@SAXPEAXW4align_val_t@std@@@Z"
+  },
+  {
+   "ordinal": 82,
+   "name": "??_VBox3D@Math@UGS@@SAXPEAXW4align_val_t@std@@H@Z"
+  },
+  {
+   "ordinal": 83,
+   "name": "??_VStlPoint3Less@UGS@@SAXPEAX@Z"
+  },
+  {
+   "ordinal": 84,
+   "name": "??_VStlPoint3Less@UGS@@SAXPEAXH@Z"
+  },
+  {
+   "ordinal": 85,
+   "name": "??_VStlPoint3Less@UGS@@SAXPEAXW4align_val_t@std@@@Z"
+  },
+  {
+   "ordinal": 86,
+   "name": "??_VStlPoint3Less@UGS@@SAXPEAXW4align_val_t@std@@H@Z"
+  },
+  {
+   "ordinal": 87,
+   "name": "?ARC_SPLINE_adjust_pt_on_pln@@YAXPEAUVector3@Math@UGS@@PEAUPoint3@23@1@Z"
+  },
+  {
+   "ordinal": 88,
+   "name": "?ARC_SPLINE_adjust_vec_on_pln@@YAX_NPEAUVector3@Math@UGS@@1@Z"
+  },
+  {
+   "ordinal": 89,
+   "name": "?ARC_SPLINE_ask_1_seg_2d_data@@YAXPEBUARC_SPLINE_1_seg_2d_s@@HPEAH1PEAN22PEAUPoint2@Math@UGS@@3PEAUVector2@34@3431@Z"
+  },
+  {
+   "ordinal": 90,
+   "name": "?ARC_SPLINE_ask_3pts_collinearity_2d@@YAHPEBUPoint2@Math@UGS@@00QEBNHPEAH@Z"
+  },
+  {
+   "ordinal": 91,
+   "name": "?ARC_SPLINE_ask_3pts_collinearity_3d@@YAHPEAUPoint3@Math@UGS@@00PEANPEAH@Z"
+  },
+  {
+   "ordinal": 92,
+   "name": "?ARC_SPLINE_ask_angle_between_vectors_2d@@YANPEAUVector2@Math@UGS@@0H@Z"
+  },
+  {
+   "ordinal": 93,
+   "name": "?ARC_SPLINE_ask_angle_from_tan@@YANNNH@Z"
+  },
+  {
+   "ordinal": 94,
+   "name": "?ARC_SPLINE_ask_arcl_of_1_seg_2d@@YANPEAUARC_SPLINE_1_seg_2d_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 95,
+   "name": "?ARC_SPLINE_ask_arcl_of_trimmed_1_seg_2d@@YANPEAUARC_SPLINE_1_seg_2d_s@@QEANPEAH@Z"
+  },
+  {
+   "ordinal": 96,
+   "name": "?ARC_SPLINE_ask_arcl_to_parm_of_1_seg_2d@@YANPEAUARC_SPLINE_1_seg_2d_s@@NPEAH@Z"
+  },
+  {
+   "ordinal": 97,
+   "name": "?ARC_SPLINE_ask_are_hermite_data_collinear_2d@@YA_NPEAUPoint2@Math@UGS@@PEAUVector2@23@01NPEAN1@Z"
+  },
+  {
+   "ordinal": 98,
+   "name": "?ARC_SPLINE_ask_are_hermite_data_collinear_3d@@YA_NPEAUPoint3@Math@UGS@@PEAUVector3@23@01NPEAN1@Z"
+  },
+  {
+   "ordinal": 99,
+   "name": "?ARC_SPLINE_ask_are_two_rays_homodromic_2d@@YAHPEANPEAUPoint2@Math@UGS@@PEAUVector2@23@12H10PEAH@Z"
+  },
+  {
+   "ordinal": 100,
+   "name": "?ARC_SPLINE_ask_bisector_of_angle_2d@@YAXPEANPEAUPoint2@Math@UGS@@PEAUVector2@23@12H10PEAH12@Z"
+  },
+  {
+   "ordinal": 101,
+   "name": "?ARC_SPLINE_ask_bisector_of_inscribed_angle@@YAXPEAUVector3@Math@UGS@@0PEAUPoint3@23@0NPEAN2PEAH0PEAUPLN3_s@@@Z"
+  },
+  {
+   "ordinal": 102,
+   "name": "?ARC_SPLINE_ask_bisector_of_polygon_angle@@YAXPEAUPoint3@Math@UGS@@00PEAUVector3@23@NPEAN2PEAH1PEAUPLN3_s@@@Z"
+  },
+  {
+   "ordinal": 103,
+   "name": "?ARC_SPLINE_ask_center_radius_of_seg_2d@@YAXPEBUARC_SPLINE_1_seg_2d_s@@PEAHPEANPEAUPoint2@Math@UGS@@1@Z"
+  },
+  {
+   "ordinal": 104,
+   "name": "?ARC_SPLINE_ask_central_angle_between_tangents_2d@@YANPEAUVector2@Math@UGS@@0PEAH@Z"
+  },
+  {
+   "ordinal": 105,
+   "name": "?ARC_SPLINE_ask_central_angle_from_inclination_angles@@YANNPEANH@Z"
+  },
+  {
+   "ordinal": 106,
+   "name": "?ARC_SPLINE_ask_central_angle_of_1_seg_2d@@YANPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 107,
+   "name": "?ARC_SPLINE_ask_convexities_of_tri_arc_2d@@YAXPEANPEAUPoint2@Math@UGS@@PEAUVector2@23@12H10PEAH1133PEAD@Z"
+  },
+  {
+   "ordinal": 108,
+   "name": "?ARC_SPLINE_ask_dist_pt_to_1_seg_2d@@YANPEAUARC_SPLINE_1_seg_2d_s@@PEAUPoint2@Math@UGS@@HPEAN12PEAH3@Z"
+  },
+  {
+   "ordinal": 109,
+   "name": "?ARC_SPLINE_ask_dist_pt_to_line_2d@@YANPEBUPoint2@Math@UGS@@0PEBUVector2@23@NPEAU123@PEANPEAH@Z"
+  },
+  {
+   "ordinal": 110,
+   "name": "?ARC_SPLINE_ask_dist_pt_to_line_seg_2d@@YANPEBUPoint2@Math@UGS@@00NHPEAU123@PEANPEAH3@Z"
+  },
+  {
+   "ordinal": 111,
+   "name": "?ARC_SPLINE_ask_end_pts_of_1_seg_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@PEAUPoint2@Math@UGS@@PEAUVector2@34@12PEAH@Z"
+  },
+  {
+   "ordinal": 112,
+   "name": "?ARC_SPLINE_ask_householder_rotation@@YAXPEAUVector3@Math@UGS@@0PEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 113,
+   "name": "?ARC_SPLINE_ask_householder_transformation@@YAXPEAUVector3@Math@UGS@@0PEAUTransformMatrix@23@@Z"
+  },
+  {
+   "ordinal": 114,
+   "name": "?ARC_SPLINE_ask_inclination_angle_from_tan_2d@@YANPEBUVector2@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 115,
+   "name": "?ARC_SPLINE_ask_inscribed_angle_and_type@@YAXPEAUVector3@Math@UGS@@00HNPEAN1PEAH@Z"
+  },
+  {
+   "ordinal": 116,
+   "name": "?ARC_SPLINE_ask_interior_angle_of_triangle_2d@@YANPEAUPoint2@Math@UGS@@00PEANHPEAH@Z"
+  },
+  {
+   "ordinal": 117,
+   "name": "?ARC_SPLINE_ask_is_arc_rather_strt_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@PEANPEAH@Z"
+  },
+  {
+   "ordinal": 118,
+   "name": "?ARC_SPLINE_ask_is_pair_in_order@@YA_NNNN@Z"
+  },
+  {
+   "ordinal": 119,
+   "name": "?ARC_SPLINE_ask_is_parm_in_arc_domain@@YAHPEBUARC_SPLINE_1_seg_2d_s@@NPEAN@Z"
+  },
+  {
+   "ordinal": 120,
+   "name": "?ARC_SPLINE_ask_is_parm_in_interval@@YAHNNNN@Z"
+  },
+  {
+   "ordinal": 121,
+   "name": "?ARC_SPLINE_ask_isosceles_to_pt_2d@@YAXPEANPEAUPoint2@Math@UGS@@PEAUVector2@23@12H10PEAH1133@Z"
+  },
+  {
+   "ordinal": 122,
+   "name": "?ARC_SPLINE_ask_min_central_angle@@YANNN@Z"
+  },
+  {
+   "ordinal": 123,
+   "name": "?ARC_SPLINE_ask_parm_at_a_point_2d@@YAXPEBUARC_SPLINE_1_seg_2d_s@@PEBUPoint2@Math@UGS@@QEBNPEAU234@PEANPEAH5@Z"
+  },
+  {
+   "ordinal": 124,
+   "name": "?ARC_SPLINE_ask_perp_vec@@YAXHPEBUVector2@Math@UGS@@PEAU123@@Z"
+  },
+  {
+   "ordinal": 125,
+   "name": "?ARC_SPLINE_ask_polar_plane_of_circle@@YAXPEAUPoint3@Math@UGS@@NPEAUARC_SPLINE_monge_plane_s@@@Z"
+  },
+  {
+   "ordinal": 126,
+   "name": "?ARC_SPLINE_ask_power_of_a_point_2d@@YANPEBUPoint2@Math@UGS@@PEBUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 127,
+   "name": "?ARC_SPLINE_ask_power_of_a_point_3d@@YANPEBUPoint3@Math@UGS@@0N@Z"
+  },
+  {
+   "ordinal": 128,
+   "name": "?ARC_SPLINE_ask_pt_and_normal_of_monge_plane@@YAXPEAUARC_SPLINE_monge_plane_s@@PEAUPoint3@Math@UGS@@PEAUVector3@34@@Z"
+  },
+  {
+   "ordinal": 129,
+   "name": "?ARC_SPLINE_ask_radical_axis_of_2_circles_2d@@YAXPEBUARC_SPLINE_1_seg_2d_s@@0PEAUPoint2@Math@UGS@@PEAUVector2@34@PEAH3@Z"
+  },
+  {
+   "ordinal": 130,
+   "name": "?ARC_SPLINE_ask_radius_of_1_seg_2d@@YANPEBUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 131,
+   "name": "?ARC_SPLINE_ask_sign_of_var@@YAHNN@Z"
+  },
+  {
+   "ordinal": 132,
+   "name": "?ARC_SPLINE_ask_tan_2d_from_inclination_angle@@YA?AUVector2@Math@UGS@@N@Z"
+  },
+  {
+   "ordinal": 133,
+   "name": "?ARC_SPLINE_ask_tangents_exterior_to_circles_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@0HHPEANPEAH00112@Z"
+  },
+  {
+   "ordinal": 134,
+   "name": "?ARC_SPLINE_ask_tangents_interior_to_circles_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@0HHPEANPEAH00112@Z"
+  },
+  {
+   "ordinal": 135,
+   "name": "?ARC_SPLINE_ask_tangents_thru_a_point_2d@@YAXPEBUARC_SPLINE_1_seg_2d_s@@PEBUPoint2@Math@UGS@@HQEBNPEAHPEAU234@4PEAN33@Z"
+  },
+  {
+   "ordinal": 136,
+   "name": "?ARC_SPLINE_ask_translation_matrix@@YAXPEAUPoint3@Math@UGS@@0PEAUTransformMatrix@23@@Z"
+  },
+  {
+   "ordinal": 137,
+   "name": "?ARC_SPLINE_ask_where_is_circle_wrt_circle_2d@@YAHPEAUARC_SPLINE_1_seg_2d_s@@0N@Z"
+  },
+  {
+   "ordinal": 138,
+   "name": "?ARC_SPLINE_ask_where_is_pt_wrt_circle_2d@@YAHPEAUPoint2@Math@UGS@@PEAUARC_SPLINE_1_seg_2d_s@@N@Z"
+  },
+  {
+   "ordinal": 139,
+   "name": "?ARC_SPLINE_combine_rotation_translation@@YAXPEAUMatrix3@Math@UGS@@PEAUTransformMatrix@23@1@Z"
+  },
+  {
+   "ordinal": 140,
+   "name": "?ARC_SPLINE_combine_translation_matrix@@YAXPEAUTransformMatrix@Math@UGS@@00@Z"
+  },
+  {
+   "ordinal": 141,
+   "name": "?ARC_SPLINE_compute_tangent_at_other_end_of_chord_2d@@YAXPEAUPoint2@Math@UGS@@PEAUVector2@23@0QEAN1PEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 142,
+   "name": "?ARC_SPLINE_convert_3d_pt_to_circle_2d@@YAXPEAUPoint3@Math@UGS@@PEA_NPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 143,
+   "name": "?ARC_SPLINE_convert_circle_to_3d_pt@@YAXPEAUPoint3@Math@UGS@@N0@Z"
+  },
+  {
+   "ordinal": 144,
+   "name": "?ARC_SPLINE_copy_1_seg_2d_pre_allocated@@YAXPEAUARC_SPLINE_1_seg_2d_s@@0@Z"
+  },
+  {
+   "ordinal": 145,
+   "name": "?ARC_SPLINE_copy_monge_plane@@YAXPEAUARC_SPLINE_monge_plane_s@@0@Z"
+  },
+  {
+   "ordinal": 146,
+   "name": "?ARC_SPLINE_cre_arc_from_ray_to_ray_2d@@YAXPEAUPoint2@Math@UGS@@PEAUVector2@23@01PEANNPEAH0QEAN003PEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 147,
+   "name": "?ARC_SPLINE_cre_arc_seg_2d@@YAXPEBUPoint2@Math@UGS@@PEBUVector2@23@NNHPEAUARC_SPLINE_1_seg_2d_s@@PEAU123@PEAU423@@Z"
+  },
+  {
+   "ordinal": 148,
+   "name": "?ARC_SPLINE_cre_circle_at_angle_to_c_tangent_to_l_at_pt_2d@@YAXPEAUPoint2@Math@UGS@@PEAUVector2@23@PEAUARC_SPLINE_1_seg_2d_s@@NPEANPEAH224@Z"
+  },
+  {
+   "ordinal": 149,
+   "name": "?ARC_SPLINE_cre_circle_from_center_and_radius_2d@@YAXPEAUPoint2@Math@UGS@@NPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 150,
+   "name": "?ARC_SPLINE_cre_circle_from_chord_end_data_2d@@YAXPEBUPoint2@Math@UGS@@PEBUVector2@23@01HPEANPEAUARC_SPLINE_1_seg_2d_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 151,
+   "name": "?ARC_SPLINE_cre_circle_from_point_tangent_radius_2d@@YAXPEBUPoint2@Math@UGS@@PEBUVector2@23@NHPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 152,
+   "name": "?ARC_SPLINE_cre_circle_tangent_to_2_circles_and_a_pt@@YAXPEAUPoint3@Math@UGS@@N0N0PEAHPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 153,
+   "name": "?ARC_SPLINE_cre_circle_tangent_to_2_circles_and_given_radius_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@0NPEANHHHPEAH0PEAUPoint2@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 154,
+   "name": "?ARC_SPLINE_cre_circle_tangent_to_3_circles@@YAXPEAUPoint3@Math@UGS@@N0N0NPEAHPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 155,
+   "name": "?ARC_SPLINE_cre_circle_tangent_to_circle_and_line_at_pt_2d@@YAXPEAUPoint2@Math@UGS@@PEAUVector2@23@PEAUARC_SPLINE_1_seg_2d_s@@PEANHPEAH002244@Z"
+  },
+  {
+   "ordinal": 156,
+   "name": "?ARC_SPLINE_cre_circle_tangent_to_line_and_line_at_pt_2d@@YAXPEAUPoint2@Math@UGS@@PEAUVector2@23@01HPEANPEAUARC_SPLINE_1_seg_2d_s@@01PEAH@Z"
+  },
+  {
+   "ordinal": 157,
+   "name": "?ARC_SPLINE_cre_circle_thru_2_points_and_radius@@YAXPEBUPoint2@Math@UGS@@0NHQEBNPEAHPEAUARC_SPLINE_1_seg_2d_s@@32@Z"
+  },
+  {
+   "ordinal": 158,
+   "name": "?ARC_SPLINE_cre_circle_thru_2_points_tangent_to_circle@@YAXPEBUPoint2@Math@UGS@@0PEBUARC_SPLINE_1_seg_2d_s@@QEBNPEAHPEAU123@4PEAU4@53@Z"
+  },
+  {
+   "ordinal": 159,
+   "name": "?ARC_SPLINE_cre_circle_thru_2_points_tangent_to_circle_2@@YAXPEAUPoint3@Math@UGS@@N00PEAHPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 160,
+   "name": "?ARC_SPLINE_cre_circle_thru_2_points_tangent_to_line@@YAXPEBUPoint2@Math@UGS@@00PEAUVector2@23@QEBNPEAHPEAU123@4PEAUARC_SPLINE_1_seg_2d_s@@53@Z"
+  },
+  {
+   "ordinal": 161,
+   "name": "?ARC_SPLINE_cre_circle_thru_3_points_2d@@YAXPEBUPoint2@Math@UGS@@00QEBNPEAUARC_SPLINE_1_seg_2d_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 162,
+   "name": "?ARC_SPLINE_cre_circle_thru_pt_and_tangent_to_line_at_pt_2d@@YAXPEBUPoint2@Math@UGS@@PEBUVector2@23@0QEBNPEAUARC_SPLINE_1_seg_2d_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 163,
+   "name": "?ARC_SPLINE_cre_matrix_of_rotation_around_axis@@YAXPEAUVector3@Math@UGS@@NPEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 164,
+   "name": "?ARC_SPLINE_cre_mtx3_from_2_vecs_to_2_vecs@@YAXPEAUVector3@Math@UGS@@000HPEAUMatrix3@23@PEAH@Z"
+  },
+  {
+   "ordinal": 165,
+   "name": "?ARC_SPLINE_cre_mtx3_from_3_vecs_to_3_vecs@@YAXPEAUVector3@Math@UGS@@00000HPEAUMatrix3@23@PEAH@Z"
+  },
+  {
+   "ordinal": 166,
+   "name": "?ARC_SPLINE_cre_offset_circle_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@NN0@Z"
+  },
+  {
+   "ordinal": 167,
+   "name": "?ARC_SPLINE_cre_offset_straight_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@N0@Z"
+  },
+  {
+   "ordinal": 168,
+   "name": "?ARC_SPLINE_cre_single_point_circle_2d@@YAXPEBUPoint2@Math@UGS@@PEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 169,
+   "name": "?ARC_SPLINE_cre_strt_seg_2d@@YAXPEBUPoint2@Math@UGS@@0PEBUVector2@23@PEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 170,
+   "name": "?ARC_SPLINE_evaluate_1_seg_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@HNPEAUPoint2@Math@UGS@@PEAUVector2@34@PEAH@Z"
+  },
+  {
+   "ordinal": 171,
+   "name": "?ARC_SPLINE_evaluate_arc_seg_2d@@YAXPEBUARC_SPLINE_1_seg_2d_s@@HNPEAUPoint2@Math@UGS@@PEAUVector2@34@PEAH@Z"
+  },
+  {
+   "ordinal": 172,
+   "name": "?ARC_SPLINE_evaluate_strt_seg_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@NPEAUPoint2@Math@UGS@@PEAUVector2@34@PEAH@Z"
+  },
+  {
+   "ordinal": 173,
+   "name": "?ARC_SPLINE_init_1_seg_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 174,
+   "name": "?ARC_SPLINE_inter_2_monge_planes@@YAXPEAUARC_SPLINE_monge_plane_s@@0PEANPEAUPoint3@Math@UGS@@PEAUVector3@34@PEAH@Z"
+  },
+  {
+   "ordinal": 175,
+   "name": "?ARC_SPLINE_inter_3_monge_planes@@YAXPEAUARC_SPLINE_monge_plane_s@@00PEANPEAUPoint3@Math@UGS@@PEAH33@Z"
+  },
+  {
+   "ordinal": 176,
+   "name": "?ARC_SPLINE_inter_circular_arc_line_seg_2d@@YAXPEBUARC_SPLINE_1_seg_2d_s@@0HHQEBNPEAHPEAUPoint2@Math@UGS@@PEAN23422@Z"
+  },
+  {
+   "ordinal": 177,
+   "name": "?ARC_SPLINE_inter_line_line_2d@@YAXQEBNPEBUPoint2@Math@UGS@@1HPEAUVector2@23@2PEAU123@PEAN4PEAH@Z"
+  },
+  {
+   "ordinal": 178,
+   "name": "?ARC_SPLINE_inter_of_2_circular_arcs_2d@@YAXPEBUARC_SPLINE_1_seg_2d_s@@0HHQEBNPEAHPEAUPoint2@Math@UGS@@PEAN23422@Z"
+  },
+  {
+   "ordinal": 179,
+   "name": "?ARC_SPLINE_mirror_point_wrt_line_2d@@YAXPEAUPoint2@Math@UGS@@0PEAUVector2@23@N0PEAH@Z"
+  },
+  {
+   "ordinal": 180,
+   "name": "?ARC_SPLINE_mod@@YAHHH@Z"
+  },
+  {
+   "ordinal": 181,
+   "name": "?ARC_SPLINE_normalize_monge_plane@@YAXPEAUARC_SPLINE_monge_plane_s@@@Z"
+  },
+  {
+   "ordinal": 182,
+   "name": "?ARC_SPLINE_proj_pt_along_vec_on_plane@@YAXPEAUPoint3@Math@UGS@@0PEAUVector3@23@1PEAN02PEAH@Z"
+  },
+  {
+   "ordinal": 183,
+   "name": "?ARC_SPLINE_proj_pt_to_pln@@YAXPEBUVector3@Math@UGS@@PEBUPoint3@23@1PEAU423@@Z"
+  },
+  {
+   "ordinal": 184,
+   "name": "?ARC_SPLINE_proj_vec_to_pln@@YAXPEAUVector3@Math@UGS@@00@Z"
+  },
+  {
+   "ordinal": 185,
+   "name": "?ARC_SPLINE_re_order_3pts_2d@@YAXNPEAUPoint2@Math@UGS@@00PEAH@Z"
+  },
+  {
+   "ordinal": 186,
+   "name": "?ARC_SPLINE_re_order_3pts_3d@@YAXNPEAUPoint3@Math@UGS@@00PEAH@Z"
+  },
+  {
+   "ordinal": 187,
+   "name": "?ARC_SPLINE_reverse_parm_of_1_seg_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 188,
+   "name": "?ARC_SPLINE_reverse_parm_of_arc_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 189,
+   "name": "?ARC_SPLINE_reverse_parm_of_strt_2d@@YAXPEAUARC_SPLINE_1_seg_2d_s@@@Z"
+  },
+  {
+   "ordinal": 190,
+   "name": "?ARC_SPLINE_rotate_point_around_axis@@YAXPEAUPoint3@Math@UGS@@0PEAUVector3@23@N0@Z"
+  },
+  {
+   "ordinal": 191,
+   "name": "?ARC_SPLINE_rotate_vector_around_axis@@YAXPEAUVector3@Math@UGS@@0N_N0@Z"
+  },
+  {
+   "ordinal": 192,
+   "name": "?ARC_SPLINE_solve_quadratic_eqt@@YAXNNNHQEANPEAH@Z"
+  },
+  {
+   "ordinal": 193,
+   "name": "?ARC_SPLINE_transform_vec_3d@@YAXPEAUVector3@Math@UGS@@PEAUTransformMatrix@23@_N0@Z"
+  },
+  {
+   "ordinal": 194,
+   "name": "?ARC_SPLINE_trig_eqt_linear_sin_cos@@YAXNNNDHNPEAHQEAN1@Z"
+  },
+  {
+   "ordinal": 195,
+   "name": "?ARC_SPLINE_trim_to_point_1_seg_2d@@YAXPEAUPoint2@Math@UGS@@PEANPEAUARC_SPLINE_1_seg_2d_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 196,
+   "name": "?AddMatrices@Math@UGS@@YAX_NQEBN1HHQEAN@Z"
+  },
+  {
+   "ordinal": 197,
+   "name": "?AlignZAxes@PointCloudUtils@Math@UGS@@YA_NAEBUMatrix3@23@AEAUTransformMatrix@23@@Z"
+  },
+  {
+   "ordinal": 198,
+   "name": "?AllocatePolygonMemory@Clipper@Clip@Math@UGS@@CAX_NHHQEANQEAHAEAPEANAEAPEAH@Z"
+  },
+  {
+   "ordinal": 199,
+   "name": "?AppendImmediateNeighbors@Graph@Math@UGS@@AEBAXHAEBV?$vector@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@V?$SMAlloc@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Memory@UGS@@@std@@AEAV?$vector@_NV?$SMAlloc@_N@Memory@UGS@@@5@AEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@5@@Z"
+  },
+  {
+   "ordinal": 200,
+   "name": "?AreComplementPoints@Graph@Math@UGS@@CA_NHAEBUPoint3@23@0N@Z"
+  },
+  {
+   "ordinal": 201,
+   "name": "?BCDF_CALC_auto_curvature@@YAXPEAUBCDF_s@@HPEAN@Z"
+  },
+  {
+   "ordinal": 202,
+   "name": "?BCDF_CALC_auto_derivatives@@YAXPEAUBCDF_s@@HHPEAN@Z"
+  },
+  {
+   "ordinal": 203,
+   "name": "?BCDF_CALC_auto_slope@@YAXPEAUBCDF_s@@HPEAN@Z"
+  },
+  {
+   "ordinal": 204,
+   "name": "?BCDF_CALC_denormalize_param@@YANPEAUBCDF_s@@N@Z"
+  },
+  {
+   "ordinal": 205,
+   "name": "?BCDF_CALC_mirror_slope@@YAXPEAN000@Z"
+  },
+  {
+   "ordinal": 206,
+   "name": "?BCDF_CALC_normalized_slope@@YAXPEAUBCDF_s@@HHPEAN@Z"
+  },
+  {
+   "ordinal": 207,
+   "name": "?BCDF_CALC_parameters@@YAXHHPEANN_N0@Z"
+  },
+  {
+   "ordinal": 208,
+   "name": "?BCDF_CALC_quadratic_apprx@@YAHQEAN000HNHPEAN@Z"
+  },
+  {
+   "ordinal": 209,
+   "name": "?BCDF_CALC_single_weight@@YANHPEANH@Z"
+  },
+  {
+   "ordinal": 210,
+   "name": "?BCDF_CALC_unitize_slope@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 211,
+   "name": "?BCDF_CALC_weights@@YAXHHPEAN0@Z"
+  },
+  {
+   "ordinal": 212,
+   "name": "?BCDF_add_constraint_type_array@@YAXPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 213,
+   "name": "?BCDF_add_needed_slopes@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 214,
+   "name": "?BCDF_add_params@@YAXPEAUBCDF_s@@PEAN@Z"
+  },
+  {
+   "ordinal": 215,
+   "name": "?BCDF_add_weights@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 216,
+   "name": "?BCDF_ask_algorithm_version@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 217,
+   "name": "?BCDF_ask_continuity@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 218,
+   "name": "?BCDF_ask_ls_uniform_segments@@YA_NPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 219,
+   "name": "?BCDF_ask_max_npoles_for_fit@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 220,
+   "name": "?BCDF_ask_min_npoles_for_fit@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 221,
+   "name": "?BCDF_attach_knot_sequence@@YAXPEAUBCDF_s@@HPEAN@Z"
+  },
+  {
+   "ordinal": 222,
+   "name": "?BCDF_calc_df_polygon_length@@YANPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 223,
+   "name": "?BCDF_change_curvature@@YAXPEAUBCDF_s@@HPEANHN@Z"
+  },
+  {
+   "ordinal": 224,
+   "name": "?BCDF_change_number_of_segments@@YAXPEAUBCDF_s@@H@Z"
+  },
+  {
+   "ordinal": 225,
+   "name": "?BCDF_change_order@@YAXPEAUBCDF_s@@H@Z"
+  },
+  {
+   "ordinal": 226,
+   "name": "?BCDF_change_slope@@YAXPEAUBCDF_s@@HPEANH@Z"
+  },
+  {
+   "ordinal": 227,
+   "name": "?BCDF_change_tolerance@@YAXPEAUBCDF_s@@N@Z"
+  },
+  {
+   "ordinal": 228,
+   "name": "?BCDF_check_consecutive_dup_pts@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 229,
+   "name": "?BCDF_check_defining_data@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 230,
+   "name": "?BCDF_check_overlap_points@@YAHPEAUBCDF_s@@HHQEAN@Z"
+  },
+  {
+   "ordinal": 231,
+   "name": "?BCDF_convert_4d_to_3d@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 232,
+   "name": "?BCDF_convert_to_least_squares@@YAXPEAUBCDF_s@@N@Z"
+  },
+  {
+   "ordinal": 233,
+   "name": "?BCDF_copy_attributes@@YAXPEAUBCDF_s@@0@Z"
+  },
+  {
+   "ordinal": 234,
+   "name": "?BCDF_copy_constraint_type_array@@YAPEAHPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 235,
+   "name": "?BCDF_copy_crvatr_deriv_type_array@@YAPEAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 236,
+   "name": "?BCDF_copy_crvatr_type_array@@YAPEAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 237,
+   "name": "?BCDF_copy_parameters@@YAPEANPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 238,
+   "name": "?BCDF_copy_points@@YAPEANPEAUBCDF_s@@PEAH1@Z"
+  },
+  {
+   "ordinal": 239,
+   "name": "?BCDF_copy_single_3d_crvatr@@YAXPEAUBCDF_s@@HQEANPEAH@Z"
+  },
+  {
+   "ordinal": 240,
+   "name": "?BCDF_copy_single_3d_crvatr_deriv@@YAXPEAUBCDF_s@@HQEANPEAH@Z"
+  },
+  {
+   "ordinal": 241,
+   "name": "?BCDF_copy_single_3d_point@@YAXPEAUBCDF_s@@HQEAN@Z"
+  },
+  {
+   "ordinal": 242,
+   "name": "?BCDF_copy_single_3d_slope@@YAXPEAUBCDF_s@@HQEANPEAH@Z"
+  },
+  {
+   "ordinal": 243,
+   "name": "?BCDF_copy_slope_pars@@YAPEANPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 244,
+   "name": "?BCDF_copy_slope_type_array@@YAPEAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 245,
+   "name": "?BCDF_copy_slopes@@YAPEANPEAUBCDF_s@@PEAH1@Z"
+  },
+  {
+   "ordinal": 246,
+   "name": "?BCDF_copy_structure@@YAPEAUBCDF_s@@PEAU1@@Z"
+  },
+  {
+   "ordinal": 247,
+   "name": "?BCDF_create_crvatr_deriv_pos_array@@YAPEAHPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 248,
+   "name": "?BCDF_create_crvatr_pos_array@@YAPEAHPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 249,
+   "name": "?BCDF_create_df_from_pts@@YAPEAUBCDF_s@@PEANHHHN@Z"
+  },
+  {
+   "ordinal": 250,
+   "name": "?BCDF_create_from_pntlst@@YAPEAUBCDF_s@@HHHPEAUPNTLST_s@@0000PEAH0010011N@Z"
+  },
+  {
+   "ordinal": 251,
+   "name": "?BCDF_create_slope_pos_array@@YAPEAHPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 252,
+   "name": "?BCDF_curvature_at_curvature_deriv@@YAHPEAUBCDF_s@@HPEAHPEAN@Z"
+  },
+  {
+   "ordinal": 253,
+   "name": "?BCDF_curvature_at_point@@YAHPEAUBCDF_s@@HPEAH@Z"
+  },
+  {
+   "ordinal": 254,
+   "name": "?BCDF_curvature_at_slope@@YAHPEAUBCDF_s@@HPEAH@Z"
+  },
+  {
+   "ordinal": 255,
+   "name": "?BCDF_curvature_deriv_at_curvature@@YAHPEAUBCDF_s@@HPEAH@Z"
+  },
+  {
+   "ordinal": 256,
+   "name": "?BCDF_curvature_deriv_at_point@@YAHPEAUBCDF_s@@HPEAH@Z"
+  },
+  {
+   "ordinal": 257,
+   "name": "?BCDF_curvature_deriv_at_slope@@YAHPEAUBCDF_s@@HPEAH@Z"
+  },
+  {
+   "ordinal": 258,
+   "name": "?BCDF_detach_knot_sequence@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 259,
+   "name": "?BCDF_end_slope_exists@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 260,
+   "name": "?BCDF_free_all_but_points@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 261,
+   "name": "?BCDF_free_attributes@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 262,
+   "name": "?BCDF_free_structure@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 263,
+   "name": "?BCDF_get_curvature_at_point@@YA_NPEAUBCDF_s@@HAEAUVector3@Math@UGS@@PEAH@Z"
+  },
+  {
+   "ordinal": 264,
+   "name": "?BCDF_get_curvature_deriv_at_point@@YA_NPEAUBCDF_s@@HAEAUVector3@Math@UGS@@PEAH@Z"
+  },
+  {
+   "ordinal": 265,
+   "name": "?BCDF_get_slope_at_point@@YA_NPEAUBCDF_s@@HAEAUVector3@Math@UGS@@PEAH@Z"
+  },
+  {
+   "ordinal": 266,
+   "name": "?BCDF_is_least_squares@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 267,
+   "name": "?BCDF_is_ug_spline@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 268,
+   "name": "?BCDF_make_bcdf_data_persistent@@YAPEAUBCDF_s@@PEAU1@@Z"
+  },
+  {
+   "ordinal": 269,
+   "name": "?BCDF_make_least_squares_slopes@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 270,
+   "name": "?BCDF_normalize_parameters@@YANPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 271,
+   "name": "?BCDF_num_of_knots_needed@@YAHPEAUBCDF_s@@H@Z"
+  },
+  {
+   "ordinal": 272,
+   "name": "?BCDF_parameter_in_list@@YAHPEAUBCDF_s@@NPEAH@Z"
+  },
+  {
+   "ordinal": 273,
+   "name": "?BCDF_point_at_curvature@@YAHPEAUBCDF_s@@H@Z"
+  },
+  {
+   "ordinal": 274,
+   "name": "?BCDF_point_at_curvature_deriv@@YAHPEAUBCDF_s@@H@Z"
+  },
+  {
+   "ordinal": 275,
+   "name": "?BCDF_point_at_slope@@YAHPEAUBCDF_s@@H@Z"
+  },
+  {
+   "ordinal": 276,
+   "name": "?BCDF_remove_curvature_derivs@@YAXPEAUBCDF_s@@HH@Z"
+  },
+  {
+   "ordinal": 277,
+   "name": "?BCDF_remove_curvatures@@YAXPEAUBCDF_s@@HH@Z"
+  },
+  {
+   "ordinal": 278,
+   "name": "?BCDF_remove_defining_points@@YAXPEAUBCDF_s@@HH@Z"
+  },
+  {
+   "ordinal": 279,
+   "name": "?BCDF_remove_interior_slopes@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 280,
+   "name": "?BCDF_remove_slopes@@YAXPEAUBCDF_s@@HH@Z"
+  },
+  {
+   "ordinal": 281,
+   "name": "?BCDF_replace_curvature@@YAXPEAUBCDF_s@@PEANHH@Z"
+  },
+  {
+   "ordinal": 282,
+   "name": "?BCDF_replace_curvature_deriv@@YAXPEAUBCDF_s@@PEANHH@Z"
+  },
+  {
+   "ordinal": 283,
+   "name": "?BCDF_replace_defining_point@@YAXPEAUBCDF_s@@PEANHH@Z"
+  },
+  {
+   "ordinal": 284,
+   "name": "?BCDF_replace_slope@@YAXPEAUBCDF_s@@PEANHH@Z"
+  },
+  {
+   "ordinal": 285,
+   "name": "?BCDF_replace_weight@@YAXPEAUBCDF_s@@HN@Z"
+  },
+  {
+   "ordinal": 286,
+   "name": "?BCDF_return_constraint_type_array@@YAPEAHPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 287,
+   "name": "?BCDF_return_crvatr_array@@YAPEANPEAUBCDF_s@@PEAH1@Z"
+  },
+  {
+   "ordinal": 288,
+   "name": "?BCDF_return_crvatr_deriv_array@@YAPEANPEAUBCDF_s@@PEAH1@Z"
+  },
+  {
+   "ordinal": 289,
+   "name": "?BCDF_return_crvatr_deriv_pars_array@@YAPEANPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 290,
+   "name": "?BCDF_return_crvatr_deriv_type_array@@YAPEAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 291,
+   "name": "?BCDF_return_crvatr_pars_array@@YAPEANPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 292,
+   "name": "?BCDF_return_crvatr_type_array@@YAPEAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 293,
+   "name": "?BCDF_return_df_point_array@@YAPEANPEAUBCDF_s@@PEAH1@Z"
+  },
+  {
+   "ordinal": 294,
+   "name": "?BCDF_return_dimension@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 295,
+   "name": "?BCDF_return_knot_sequence@@YAPEANPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 296,
+   "name": "?BCDF_return_ls_num_of_segments@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 297,
+   "name": "?BCDF_return_ls_tolerance@@YANPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 298,
+   "name": "?BCDF_return_num_of_constraints@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 299,
+   "name": "?BCDF_return_num_of_crvatr_derivs@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 300,
+   "name": "?BCDF_return_num_of_crvatrs@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 301,
+   "name": "?BCDF_return_num_of_points@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 302,
+   "name": "?BCDF_return_num_of_slopes@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 303,
+   "name": "?BCDF_return_order@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 304,
+   "name": "?BCDF_return_param_array@@YAPEANPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 305,
+   "name": "?BCDF_return_periodicity@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 306,
+   "name": "?BCDF_return_slope_array@@YAPEANPEAUBCDF_s@@PEAH1@Z"
+  },
+  {
+   "ordinal": 307,
+   "name": "?BCDF_return_slope_pars_array@@YAPEANPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 308,
+   "name": "?BCDF_return_slope_type_array@@YAPEAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 309,
+   "name": "?BCDF_return_weight_array@@YAPEANPEAUBCDF_s@@PEAH@Z"
+  },
+  {
+   "ordinal": 310,
+   "name": "?BCDF_reverse_bcdf_data@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 311,
+   "name": "?BCDF_scale_curvature_derivs@@YAXPEAUBCDF_s@@N@Z"
+  },
+  {
+   "ordinal": 312,
+   "name": "?BCDF_scale_slopes@@YAXPEAUBCDF_s@@N@Z"
+  },
+  {
+   "ordinal": 313,
+   "name": "?BCDF_set_algorithm_version@@YAXPEAUBCDF_s@@H@Z"
+  },
+  {
+   "ordinal": 314,
+   "name": "?BCDF_set_ls_uniform_segments@@YAXPEAUBCDF_s@@_N@Z"
+  },
+  {
+   "ordinal": 315,
+   "name": "?BCDF_slope_at_curvature@@YAHPEAUBCDF_s@@HPEAHPEAN@Z"
+  },
+  {
+   "ordinal": 316,
+   "name": "?BCDF_slope_at_curvature_deriv@@YAHPEAUBCDF_s@@HPEAHPEAN@Z"
+  },
+  {
+   "ordinal": 317,
+   "name": "?BCDF_slope_at_point@@YAHPEAUBCDF_s@@HPEAH@Z"
+  },
+  {
+   "ordinal": 318,
+   "name": "?BCDF_start_slope_exists@@YAHPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 319,
+   "name": "?BCDF_toggle_periodicity@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 320,
+   "name": "?BCDF_transform_bcdf_data@@YAXPEAUBCDF_s@@PEAUTransformMatrix@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 321,
+   "name": "?BCDF_unitize_slopes@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 322,
+   "name": "?BCDF_unnormalize_parameters@@YAXPEAUBCDF_s@@N@Z"
+  },
+  {
+   "ordinal": 323,
+   "name": "?BCDF_update_curvature_derivs@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 324,
+   "name": "?BCDF_update_curvatures@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 325,
+   "name": "?BCDF_update_end_slopes@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 326,
+   "name": "?BCDF_update_slopes@@YAXPEAUBCDF_s@@@Z"
+  },
+  {
+   "ordinal": 327,
+   "name": "?CSYS_compose@@YAXPEBUCSYS_s@@0PEAU1@@Z"
+  },
+  {
+   "ordinal": 328,
+   "name": "?CSYS_get_csys_given_z_dir@@YA_NPEBUCSYS_s@@PEBUVector3@Math@UGS@@PEAU1@@Z"
+  },
+  {
+   "ordinal": 329,
+   "name": "?CSYS_invert@@YAXPEBUCSYS_s@@PEAU1@@Z"
+  },
+  {
+   "ordinal": 330,
+   "name": "?CSYS_map_csys@@YAXPEBUCSYS_s@@0PEAU1@@Z"
+  },
+  {
+   "ordinal": 331,
+   "name": "?ClassifySegmentClipStatus@Clipper@Clip@Math@UGS@@CAHAEBUClipBounds@234@QEBN1AEAH@Z"
+  },
+  {
+   "ordinal": 332,
+   "name": "?ClassifyVertices@Graph@Math@UGS@@QEBAXAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@AEAV?$vector@U?$pair@HH@std@@V?$SMAlloc@U?$pair@HH@std@@@Memory@UGS@@@5@AEAV?$vector@U?$pair@U?$pair@HH@std@@H@std@@V?$SMAlloc@U?$pair@U?$pair@HH@std@@H@std@@@Memory@UGS@@@5@@Z"
+  },
+  {
+   "ordinal": 333,
+   "name": "?ClipLineSegment@Clipper@Clip@Math@UGS@@SAXAEBUClipBounds@234@AEAUCurvePoint@234@1AEAH222@Z"
+  },
+  {
+   "ordinal": 334,
+   "name": "?ClipPoint@Clipper@Clip@Math@UGS@@SAXAEBUClipBounds@234@QEBNAEAH2@Z"
+  },
+  {
+   "ordinal": 335,
+   "name": "?ClipPolygon@Clipper@Clip@Math@UGS@@SAXAEBUClipBounds@234@HQEBNQEBHH_NAEAHQEANQEAH44@Z"
+  },
+  {
+   "ordinal": 336,
+   "name": "?ClipPolygonBySinglePlane@Clipper@Clip@Math@UGS@@CAXAEBUClipBounds@234@HQEBNQEBHH_NAEAHQEANQEAH44@Z"
+  },
+  {
+   "ordinal": 337,
+   "name": "?ClipPolygonEdgeBySinglePlane@Clipper@Clip@Math@UGS@@CAXAEBUClipBounds@234@QEBN1QEANAEAH@Z"
+  },
+  {
+   "ordinal": 338,
+   "name": "?ComplementVertices@Graph@Math@UGS@@AEBAXAEBVBox3D@23@HNAEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@1AEAV?$vector@U?$pair@HH@std@@V?$SMAlloc@U?$pair@HH@std@@@Memory@UGS@@@6@AEAV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@6@@Z"
+  },
+  {
+   "ordinal": 339,
+   "name": "?Compress@Graph@Math@UGS@@QEAA_NN@Z"
+  },
+  {
+   "ordinal": 340,
+   "name": "?CompressVertices@Graph@Math@UGS@@AEAAXAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 341,
+   "name": "?ComputeBoundingBox@Graph@Math@UGS@@QEBAXAEATBOX3_s@@@Z"
+  },
+  {
+   "ordinal": 342,
+   "name": "?ComputePlaneNormal@PointCloudUtils@Math@UGS@@YA_NAEBV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@std@@AEAUVector3@23@@Z"
+  },
+  {
+   "ordinal": 343,
+   "name": "?ComputeSubGraphBoundingBox@Graph@Math@UGS@@QEBAXAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@AEAVBox3D@23@@Z"
+  },
+  {
+   "ordinal": 344,
+   "name": "?ComputeT@Clipper@Clip@Math@UGS@@CA_NHNNAEAN00000AEAH1@Z"
+  },
+  {
+   "ordinal": 345,
+   "name": "?ComputeTransform2D@PointCloudUtils@Math@UGS@@YA?AUTransformMatrix@23@AEAV?$vector@U?$pair@UPoint3@Math@UGS@@U123@@std@@V?$SMAlloc@U?$pair@UPoint3@Math@UGS@@U123@@std@@@Memory@UGS@@@std@@AEBUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 346,
+   "name": "?DELAUNAY_loadModule@@YAXXZ"
+  },
+  {
+   "ordinal": 347,
+   "name": "?DELAUNAY_moduleLoaded@@YA_NXZ"
+  },
+  {
+   "ordinal": 348,
+   "name": "?DELAUNAY_unloadModule@@YAXXZ"
+  },
+  {
+   "ordinal": 349,
+   "name": "?DGEOM_compute_sectional_G2G3_vectors@@YAHPEAN000000000H00@Z"
+  },
+  {
+   "ordinal": 350,
+   "name": "?DGEOM_compute_sectional_geometric_deriv@@YAHQEAN00H0@Z"
+  },
+  {
+   "ordinal": 351,
+   "name": "?DGEOM_convert_1st_derivs_uv_to_xy@@YA_NQEBN0QEAN@Z"
+  },
+  {
+   "ordinal": 352,
+   "name": "?DGEOM_convert_2nd_derivs_uv_to_xy@@YA_NQEBN0000QEAN@Z"
+  },
+  {
+   "ordinal": 353,
+   "name": "?DGEOM_convert_SOS_1st_derivs_uv_to_xyz@@YA_NQEBN000QEAN11@Z"
+  },
+  {
+   "ordinal": 354,
+   "name": "?DGEOM_convert_SOS_1st_derivs_xyz_to_uv@@YA_NQEBN0000QEAN1@Z"
+  },
+  {
+   "ordinal": 355,
+   "name": "?DGEOM_convert_crvatr_deriv_to_deriv3@@YAXQEAN000@Z"
+  },
+  {
+   "ordinal": 356,
+   "name": "?DGEOM_convert_crvatr_to_deriv2@@YAXQEAN00@Z"
+  },
+  {
+   "ordinal": 357,
+   "name": "?DGEOM_convert_crvatr_to_radius@@YAHQEAN0@Z"
+  },
+  {
+   "ordinal": 358,
+   "name": "?DGEOM_convert_radius_to_crvatr@@YAHQEAN0@Z"
+  },
+  {
+   "ordinal": 359,
+   "name": "?DGEOM_convert_to_geometric_deriv@@YAHQEANH0@Z"
+  },
+  {
+   "ordinal": 360,
+   "name": "?DGEOM_crv_curvature@@YANPEAN00@Z"
+  },
+  {
+   "ordinal": 361,
+   "name": "?DGEOM_crv_curvature_variation@@YAXPEAN000@Z"
+  },
+  {
+   "ordinal": 362,
+   "name": "?DGEOM_crv_diff_property@@YAXPEAN00H0@Z"
+  },
+  {
+   "ordinal": 363,
+   "name": "?DGEOM_crv_torsion@@YANPEAN000@Z"
+  },
+  {
+   "ordinal": 364,
+   "name": "?DGEOM_find_1st_derivs_from_normal@@YA_NAEAUSRF_VALUE@@AEAUVector3@Math@UGS@@_N11PEA_N@Z"
+  },
+  {
+   "ordinal": 365,
+   "name": "?DGEOM_srf_curvatures@@YAHPEAN0000HQEAN@Z"
+  },
+  {
+   "ordinal": 366,
+   "name": "?DGEOM_srf_normal_curvature@@YAHPEAN0000000@Z"
+  },
+  {
+   "ordinal": 367,
+   "name": "?DISPLAY_ask_system_color@@YAHXZ"
+  },
+  {
+   "ordinal": 368,
+   "name": "?DISPLAY_ask_view_bounds_display@@YA_NXZ"
+  },
+  {
+   "ordinal": 369,
+   "name": "?DISPLAY_ask_view_names_display@@YA_NXZ"
+  },
+  {
+   "ordinal": 370,
+   "name": "?DISPLAY_ask_view_of_last_cursor@@YAHXZ"
+  },
+  {
+   "ordinal": 371,
+   "name": "?DISPLAY_set_system_color@@YAXH@Z"
+  },
+  {
+   "ordinal": 372,
+   "name": "?DISPLAY_set_view_bounds_display@@YAX_N@Z"
+  },
+  {
+   "ordinal": 373,
+   "name": "?DISPLAY_set_view_names_display@@YAX_N@Z"
+  },
+  {
+   "ordinal": 374,
+   "name": "?DISPLAY_set_view_of_last_cursor@@YAXH@Z"
+  },
+  {
+   "ordinal": 375,
+   "name": "?DoesBoxIntersect@Box3D@Math@UGS@@QEAA_NAEAV123@@Z"
+  },
+  {
+   "ordinal": 376,
+   "name": "?DoesBoxIntersectPercent@Box3D@Math@UGS@@QEAA_NAEAV123@N@Z"
+  },
+  {
+   "ordinal": 377,
+   "name": "?DoesBoxSurround@Box3D@Math@UGS@@QEAA_NAEAV123@@Z"
+  },
+  {
+   "ordinal": 378,
+   "name": "?DoesBoxSurroundPercent@Box3D@Math@UGS@@QEAA_NAEAV123@N@Z"
+  },
+  {
+   "ordinal": 379,
+   "name": "?EQ_ask_length_squared_tolerance@@YANXZ"
+  },
+  {
+   "ordinal": 380,
+   "name": "?EQ_ask_length_tolerance@@YANXZ"
+  },
+  {
+   "ordinal": 381,
+   "name": "?EQ_ask_number_tolerance@@YANXZ"
+  },
+  {
+   "ordinal": 382,
+   "name": "?Equals@Vector3f@Math@UGS@@QEBA_NAEBU123@M@Z"
+  },
+  {
+   "ordinal": 383,
+   "name": "?ExactlyClipLineSegment@Clipper@Clip@Math@UGS@@CAXAEBUClipBounds@234@_NAEAUCurvePoint@234@2PEAN333AEAH444@Z"
+  },
+  {
+   "ordinal": 384,
+   "name": "?ExpandToIncludeBox@Box3D@Math@UGS@@QEAA_NAEBV123@@Z"
+  },
+  {
+   "ordinal": 385,
+   "name": "?ExpandToIncludePoint@Box3D@Math@UGS@@QEAA_NAEBUPoint3@23@@Z"
+  },
+  {
+   "ordinal": 386,
+   "name": "?ExpandToIncludePoints@Box3D@Math@UGS@@QEAA_NAEBV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@std@@@Z"
+  },
+  {
+   "ordinal": 387,
+   "name": "?FACET_ask_point_on_plane@@YAXPEAUVector3@Math@UGS@@NPEAUPoint3@23@@Z"
+  },
+  {
+   "ordinal": 388,
+   "name": "?FACET_ask_triangle_area@@YANPEAUPoint3@Math@UGS@@00@Z"
+  },
+  {
+   "ordinal": 389,
+   "name": "?FACET_ask_triangles_of_polygon@@YAXHPEAUPoint3@Math@UGS@@PEAUVector3@23@PEAH@Z"
+  },
+  {
+   "ordinal": 390,
+   "name": "?FACET_compute_undirected_angle@@YANPEAUVector3@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 391,
+   "name": "?FACET_interp_normal_at_vertex@@YAXPEAUPoint3@Math@UGS@@HHQEAUFACET_facet_normal_s@@W4FACET_weight_t@@QEANPEAUVector3@23@@Z"
+  },
+  {
+   "ordinal": 392,
+   "name": "?FACET_line_int_line@@YAHPEAUPoint3@Math@UGS@@PEAUVector3@23@01PEAN2@Z"
+  },
+  {
+   "ordinal": 393,
+   "name": "?FACET_line_int_plane@@YAHPEAUPoint3@Math@UGS@@0PEAUVector3@23@N0PEAN@Z"
+  },
+  {
+   "ordinal": 394,
+   "name": "?FACET_line_line_closest_point@@YAXPEAUPoint3@Math@UGS@@PEAUVector3@23@01PEAN2@Z"
+  },
+  {
+   "ordinal": 395,
+   "name": "?FACET_line_line_dist@@YANPEAUPoint3@Math@UGS@@PEAUVector3@23@01@Z"
+  },
+  {
+   "ordinal": 396,
+   "name": "?FACET_line_point_dist@@YANPEAUPoint3@Math@UGS@@00@Z"
+  },
+  {
+   "ordinal": 397,
+   "name": "?FACET_plane_plane_int@@YAHPEAUVector3@Math@UGS@@N0NPEAUPoint3@23@0@Z"
+  },
+  {
+   "ordinal": 398,
+   "name": "?FACET_point_line_proj@@YAXPEAUPoint3@Math@UGS@@0PEAUVector3@23@H0PEAN@Z"
+  },
+  {
+   "ordinal": 399,
+   "name": "?FACET_point_on_param_line@@YAXPEAUPoint3@Math@UGS@@PEAUVector3@23@N0@Z"
+  },
+  {
+   "ordinal": 400,
+   "name": "?FACET_point_plane_dist@@YANPEAUPoint3@Math@UGS@@PEAUVector3@23@N@Z"
+  },
+  {
+   "ordinal": 401,
+   "name": "?FACET_point_plane_proj@@YAXPEAUPoint3@Math@UGS@@PEAUVector3@23@N0@Z"
+  },
+  {
+   "ordinal": 402,
+   "name": "?FACET_points_to_param_line@@YAXPEAUPoint3@Math@UGS@@0H0PEAUVector3@23@@Z"
+  },
+  {
+   "ordinal": 403,
+   "name": "?FACET_ray_triangle_intersect@@YA_NPEBUPoint3@Math@UGS@@PEBUVector3@23@0PEAU123@PEAN@Z"
+  },
+  {
+   "ordinal": 404,
+   "name": "?FACET_shepards_weights@@YAXHQEANNN0@Z"
+  },
+  {
+   "ordinal": 405,
+   "name": "?FindArcFromPolyline@Math@UGS@@YAXAEBV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@std@@AEA_N1AEAUEVC_arc_s@@@Z"
+  },
+  {
+   "ordinal": 406,
+   "name": "?FindCircleFrom3Points@Math@UGS@@YAXQEBN00AEA_NQEAN2AEAN@Z"
+  },
+  {
+   "ordinal": 407,
+   "name": "?FindCircleFromPolyline@Math@UGS@@YAXAEBV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@std@@_NAEA_NQEAN3AEAN@Z"
+  },
+  {
+   "ordinal": 408,
+   "name": "?FindClosestPoint@PointCloudUtils@Math@UGS@@YA_KAEBUPoint3@23@AEBV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@std@@@Z"
+  },
+  {
+   "ordinal": 409,
+   "name": "?FindPolygonNormal@Math@UGS@@YAXHQEBNQEANAEA_N@Z"
+  },
+  {
+   "ordinal": 410,
+   "name": "?FitAroundBox@Box3D@Math@UGS@@QEAAXV123@@Z"
+  },
+  {
+   "ordinal": 411,
+   "name": "?FreePolygonMemory@Clipper@Clip@Math@UGS@@CAXQEBNQEBHAEAPEANAEAPEAH@Z"
+  },
+  {
+   "ordinal": 412,
+   "name": "?GBSPLINE_loadModule@@YAXXZ"
+  },
+  {
+   "ordinal": 413,
+   "name": "?GBSPLINE_moduleLoaded@@YA_NXZ"
+  },
+  {
+   "ordinal": 414,
+   "name": "?GBSPLINE_unloadModule@@YAXXZ"
+  },
+  {
+   "ordinal": 415,
+   "name": "?GRIP_in_batch@@YA_NXZ"
+  },
+  {
+   "ordinal": 416,
+   "name": "?GenerateSortedVerticesByDistance@Graph@Math@UGS@@AEBAXAEAV?$vector@U?$pair@HUPoint3@Math@UGS@@@std@@V?$SMAlloc@U?$pair@HUPoint3@Math@UGS@@@std@@@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 417,
+   "name": "?GenerateSubGraphOneTrackingPoint@Graph@Math@UGS@@QEBAXAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@AEBV?$vector@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@V?$SMAlloc@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Memory@UGS@@@5@AEAUPoint3@23@@Z"
+  },
+  {
+   "ordinal": 418,
+   "name": "?GenerateSubGraphTrackingPoints@Graph@Math@UGS@@QEBAXAEBV?$vector@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@V?$SMAlloc@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Memory@UGS@@@std@@AEAV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@5@@Z"
+  },
+  {
+   "ordinal": 419,
+   "name": "?Get2DMinMax@Box3D@Math@UGS@@QEBAXP6AXAEBUPoint3@23@PEAXAEAUPoint2@23@@Z1N22@Z"
+  },
+  {
+   "ordinal": 420,
+   "name": "?GetAcomParameterAccess@IAcomParameterAccess@Part@UGS@@SAPEAV123@XZ"
+  },
+  {
+   "ordinal": 421,
+   "name": "?GetAlgorithmVersion@Math@UGS@@YA?AW4AlgorithmVersion@12@XZ"
+  },
+  {
+   "ordinal": 422,
+   "name": "?GetAllVertexCoordinates@Graph@Math@UGS@@QEBAAEBV?$vector@NV?$SMAlloc@N@Memory@UGS@@@std@@XZ"
+  },
+  {
+   "ordinal": 423,
+   "name": "?GetAllVertexCoordinates@Graph@Math@UGS@@QEBAXAEAV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@std@@@Z"
+  },
+  {
+   "ordinal": 424,
+   "name": "?GetAllVertexCoordinatesForMutation@Graph@Math@UGS@@QEAAAEAV?$vector@NV?$SMAlloc@N@Memory@UGS@@@std@@XZ"
+  },
+  {
+   "ordinal": 425,
+   "name": "?GetAllVertices@Graph@Math@UGS@@QEBAXAEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 426,
+   "name": "?GetAxisTransform@PointCloudUtils@Math@UGS@@YA?AUTransformMatrix@23@AEBU?$pair@UPoint3@Math@UGS@@U123@@std@@0@Z"
+  },
+  {
+   "ordinal": 427,
+   "name": "?GetCentroid@Box3D@Math@UGS@@QEBA?AUPoint3@23@XZ"
+  },
+  {
+   "ordinal": 428,
+   "name": "?GetDisTol@StlPoint3Less@UGS@@SANXZ"
+  },
+  {
+   "ordinal": 429,
+   "name": "?GetEdgeCount@Graph@Math@UGS@@QEBAHXZ"
+  },
+  {
+   "ordinal": 430,
+   "name": "?GetEdgeEndVertex@Graph@Math@UGS@@QEBAHH@Z"
+  },
+  {
+   "ordinal": 431,
+   "name": "?GetEdgeMidPoint@Graph@Math@UGS@@QEBAXHAEAUPoint3@23@@Z"
+  },
+  {
+   "ordinal": 432,
+   "name": "?GetEdgeStartVertex@Graph@Math@UGS@@QEBAHH@Z"
+  },
+  {
+   "ordinal": 433,
+   "name": "?GetEdgeToVertexConnectivity@Graph@Math@UGS@@QEBAAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@XZ"
+  },
+  {
+   "ordinal": 434,
+   "name": "?GetEdgeToVertexConnectivity@Graph@Math@UGS@@QEBAXAEAV?$vector@U?$pair@HH@std@@V?$SMAlloc@U?$pair@HH@std@@@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 435,
+   "name": "?GetEdgeToVertexConnectivityBeginIterator@Graph@Math@UGS@@QEBAPEBHXZ"
+  },
+  {
+   "ordinal": 436,
+   "name": "?GetEdgeToVertexConnectivityBeginIteratorForMutation@Graph@Math@UGS@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@XZ"
+  },
+  {
+   "ordinal": 437,
+   "name": "?GetEdgeToVertexConnectivityEndIterator@Graph@Math@UGS@@QEBAPEBHXZ"
+  },
+  {
+   "ordinal": 438,
+   "name": "?GetEdgeToVertexConnectivityEndIteratorForMutation@Graph@Math@UGS@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@XZ"
+  },
+  {
+   "ordinal": 439,
+   "name": "?GetEdgeToVertexConnectivityForMutation@Graph@Math@UGS@@QEAAAEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@XZ"
+  },
+  {
+   "ordinal": 440,
+   "name": "?GetExpandedEdges@Graph@Math@UGS@@QEBAXAEAV?$vector@U?$pair@UPoint3@Math@UGS@@U123@@std@@V?$SMAlloc@U?$pair@UPoint3@Math@UGS@@U123@@std@@@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 441,
+   "name": "?GetFreeVertices@Graph@Math@UGS@@QEBAXAEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 442,
+   "name": "?GetLengths@Box3D@Math@UGS@@QEBAXQEAN@Z"
+  },
+  {
+   "ordinal": 443,
+   "name": "?GetMaxLength@Box3D@Math@UGS@@QEBANXZ"
+  },
+  {
+   "ordinal": 444,
+   "name": "?GetMaxPoint@Box3D@Math@UGS@@QEBANH@Z"
+  },
+  {
+   "ordinal": 445,
+   "name": "?GetMinLength@Box3D@Math@UGS@@QEBANXZ"
+  },
+  {
+   "ordinal": 446,
+   "name": "?GetMinPoint@Box3D@Math@UGS@@QEBANH@Z"
+  },
+  {
+   "ordinal": 447,
+   "name": "?GetNthDecimalDigit@Math@UGS@@YAHNH@Z"
+  },
+  {
+   "ordinal": 448,
+   "name": "?GetOneEdgeConnectivity@Graph@Math@UGS@@QEBAXHAEAH0@Z"
+  },
+  {
+   "ordinal": 449,
+   "name": "?GetOneVertexCoordinateBeginIterator@Graph@Math@UGS@@QEBAPEBNH@Z"
+  },
+  {
+   "ordinal": 450,
+   "name": "?GetOneVertexCoordinateBeginIteratorForMutation@Graph@Math@UGS@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@H@Z"
+  },
+  {
+   "ordinal": 451,
+   "name": "?GetOneVertexCoordinates@Graph@Math@UGS@@QEBAXHAEAUPoint3@23@@Z"
+  },
+  {
+   "ordinal": 452,
+   "name": "?GetOrientation@Box3D@Math@UGS@@QEBA?AUMatrix3@23@XZ"
+  },
+  {
+   "ordinal": 453,
+   "name": "?GetOrigin@Box3D@Math@UGS@@QEBA?AUPoint3@23@XZ"
+  },
+  {
+   "ordinal": 454,
+   "name": "?GetRadius@Box3D@Math@UGS@@QEBANXZ"
+  },
+  {
+   "ordinal": 455,
+   "name": "?GetShortestLength@Box3D@Math@UGS@@QEBANXZ"
+  },
+  {
+   "ordinal": 456,
+   "name": "?GetThreadTolerances@Math@UGS@@YAPEAVITolerances@12@XZ"
+  },
+  {
+   "ordinal": 457,
+   "name": "?GetThreadTolerancesCopy@Math@UGS@@YA?AV?$SharedPtr@VITolerances@Math@UGS@@@Memory@2@XZ"
+  },
+  {
+   "ordinal": 458,
+   "name": "?GetULPTolerance@Math@UGS@@YAMAEBM0@Z"
+  },
+  {
+   "ordinal": 459,
+   "name": "?GetULPTolerance@Math@UGS@@YAMAEBM@Z"
+  },
+  {
+   "ordinal": 460,
+   "name": "?GetULPTolerance@Math@UGS@@YANAEBN0@Z"
+  },
+  {
+   "ordinal": 461,
+   "name": "?GetULPTolerance@Math@UGS@@YANAEBN@Z"
+  },
+  {
+   "ordinal": 462,
+   "name": "?GetVertexCoordinateBeginIterator@Graph@Math@UGS@@QEBAPEBNXZ"
+  },
+  {
+   "ordinal": 463,
+   "name": "?GetVertexCoordinateBeginIteratorForMutation@Graph@Math@UGS@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@XZ"
+  },
+  {
+   "ordinal": 464,
+   "name": "?GetVertexCoordinateEndIterator@Graph@Math@UGS@@QEBAPEBNXZ"
+  },
+  {
+   "ordinal": 465,
+   "name": "?GetVertexCoordinateEndIteratorForMutation@Graph@Math@UGS@@QEAA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@XZ"
+  },
+  {
+   "ordinal": 466,
+   "name": "?GetVertexCount@Graph@Math@UGS@@QEBAHXZ"
+  },
+  {
+   "ordinal": 467,
+   "name": "?GetVolume@Box3D@Math@UGS@@QEBANN@Z"
+  },
+  {
+   "ordinal": 468,
+   "name": "?GetXCorner@Box3D@Math@UGS@@QEBA?AUPoint3@23@XZ"
+  },
+  {
+   "ordinal": 469,
+   "name": "?GetXLength@Box3D@Math@UGS@@QEBANXZ"
+  },
+  {
+   "ordinal": 470,
+   "name": "?GetXVector@Box3D@Math@UGS@@QEBA?AUVector3@23@XZ"
+  },
+  {
+   "ordinal": 471,
+   "name": "?GetXYCorner@Box3D@Math@UGS@@QEBA?AUPoint3@23@XZ"
+  },
+  {
+   "ordinal": 472,
+   "name": "?GetXYZCorner@Box3D@Math@UGS@@QEBA?AUPoint3@23@XZ"
+  },
+  {
+   "ordinal": 473,
+   "name": "?GetXZCorner@Box3D@Math@UGS@@QEBA?AUPoint3@23@XZ"
+  },
+  {
+   "ordinal": 474,
+   "name": "?GetYCorner@Box3D@Math@UGS@@QEBA?AUPoint3@23@XZ"
+  },
+  {
+   "ordinal": 475,
+   "name": "?GetYLength@Box3D@Math@UGS@@QEBANXZ"
+  },
+  {
+   "ordinal": 476,
+   "name": "?GetYVector@Box3D@Math@UGS@@QEBA?AUVector3@23@XZ"
+  },
+  {
+   "ordinal": 477,
+   "name": "?GetYZCorner@Box3D@Math@UGS@@QEBA?AUPoint3@23@XZ"
+  },
+  {
+   "ordinal": 478,
+   "name": "?GetZCorner@Box3D@Math@UGS@@QEBA?AUPoint3@23@XZ"
+  },
+  {
+   "ordinal": 479,
+   "name": "?GetZLength@Box3D@Math@UGS@@QEBANXZ"
+  },
+  {
+   "ordinal": 480,
+   "name": "?GetZVector@Box3D@Math@UGS@@QEBA?AUVector3@23@XZ"
+  },
+  {
+   "ordinal": 481,
+   "name": "?HLR_FACET_add_facet@@YAXQEBNHQEAHQEBHQEB_N@Z"
+  },
+  {
+   "ordinal": 482,
+   "name": "?HLR_FACET_add_vloc@@YAXHQEBN@Z"
+  },
+  {
+   "ordinal": 483,
+   "name": "?HLR_FACET_add_vnrm@@YAXHQEBN@Z"
+  },
+  {
+   "ordinal": 484,
+   "name": "?HLR_FACET_clipping@@YAXQEBN@Z"
+  },
+  {
+   "ordinal": 485,
+   "name": "?HLR_FACET_group@@YAXHHQEAY02$$CBNPEAX@Z"
+  },
+  {
+   "ordinal": 486,
+   "name": "?HLR_FACET_init@@YAXXZ"
+  },
+  {
+   "ordinal": 487,
+   "name": "?HLR_FACET_render@@YAXXZ"
+  },
+  {
+   "ordinal": 488,
+   "name": "?HLR_FACET_set_debug_level@@YAXH@Z"
+  },
+  {
+   "ordinal": 489,
+   "name": "?HLR_FACET_set_diag_callback@@YAXP6AXW4HLR_FACET_severity_codes_t@@W4HLR_FACET_diagnostic_codes_t@@PEBD@Z@Z"
+  },
+  {
+   "ordinal": 490,
+   "name": "?HLR_FACET_set_line_callback@@YAXP6AXQEBN0HPEAX@Z@Z"
+  },
+  {
+   "ordinal": 491,
+   "name": "?HLR_FACET_term@@YAXXZ"
+  },
+  {
+   "ordinal": 492,
+   "name": "?HLR_FACET_view@@YAXQEBN0NNH@Z"
+  },
+  {
+   "ordinal": 493,
+   "name": "?IPNT3_LST_alloc@@YAXPEAUIPNT3_LST_s@@H@Z"
+  },
+  {
+   "ordinal": 494,
+   "name": "?IPNT3_LST_copy@@YAXPEAUIPNT3_LST_s@@0@Z"
+  },
+  {
+   "ordinal": 495,
+   "name": "?IPNT3_LST_free@@YAXPEAUIPNT3_LST_s@@@Z"
+  },
+  {
+   "ordinal": 496,
+   "name": "?IPNT3_LST_realloc@@YAXPEAUIPNT3_LST_s@@H@Z"
+  },
+  {
+   "ordinal": 497,
+   "name": "?IPNT3_LST_xtract_pnts@@YAXPEAUIPNT3_LST_s@@PEAY02N@Z"
+  },
+  {
+   "ordinal": 498,
+   "name": "?IPNT4_LST_alloc@@YAXPEAUIPNT4_LST_s@@H@Z"
+  },
+  {
+   "ordinal": 499,
+   "name": "?IPNT4_LST_free@@YAXPEAUIPNT4_LST_s@@@Z"
+  },
+  {
+   "ordinal": 500,
+   "name": "?IPNT4_LST_realloc@@YAXPEAUIPNT4_LST_s@@H@Z"
+  },
+  {
+   "ordinal": 501,
+   "name": "?IPNT4_LST_xtract_pnts@@YAXPEAUIPNT4_LST_s@@PEAY03N@Z"
+  },
+  {
+   "ordinal": 502,
+   "name": "?IdentifyInteriorFreeVertices@Graph@Math@UGS@@QEBAXAEBVBox3D@23@NAEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 503,
+   "name": "?IdentifyMissingAdjacentConnectivity@Graph@Math@UGS@@QEBAXAEBVBox3D@23@NAEAV?$vector@U?$pair@HH@std@@V?$SMAlloc@U?$pair@HH@std@@@Memory@UGS@@@std@@AEAV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@6@@Z"
+  },
+  {
+   "ordinal": 504,
+   "name": "?IdentifyOldToNewVertexMap@Graph@Math@UGS@@AEBAXAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@AEAV45@@Z"
+  },
+  {
+   "ordinal": 505,
+   "name": "?IdentifyOrphanVertices@Graph@Math@UGS@@AEAAXAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@0AEAV45@@Z"
+  },
+  {
+   "ordinal": 506,
+   "name": "?IdentifyVertexToEdgeConnectivity@Graph@Math@UGS@@QEBAXAEAV?$vector@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@V?$SMAlloc@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 507,
+   "name": "?IdentifyVerticesCoincidentToBox@Graph@Math@UGS@@QEBAXAEBVBox3D@23@NAEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@111111@Z"
+  },
+  {
+   "ordinal": 508,
+   "name": "?IdentifyVerticesOutsideBoundingBox@Graph@Math@UGS@@QEBAXAEBVBox3D@23@NAEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 509,
+   "name": "?InitializeUsingArrays@Graph@Math@UGS@@QEAAXHPEBNHPEBH@Z"
+  },
+  {
+   "ordinal": 510,
+   "name": "?Insert@Graph@Math@UGS@@QEAAXAEBV123@@Z"
+  },
+  {
+   "ordinal": 511,
+   "name": "?InteriorUnconnectedEdges@Graph@Math@UGS@@QEBAXAEBTBOX3_s@@AEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@1@Z"
+  },
+  {
+   "ordinal": 512,
+   "name": "?Intersect2DLines@Math@UGS@@YAXQEBN0NAEA_NQEAN@Z"
+  },
+  {
+   "ordinal": 513,
+   "name": "?Intersect2DSegments@Math@UGS@@YAXQEBN0AEAN1QEAN2AEAW4MathIntersectType_e@12@@Z"
+  },
+  {
+   "ordinal": 514,
+   "name": "?IntersectSegmentRectangle2D@Math@UGS@@YA_NQEBM0@Z"
+  },
+  {
+   "ordinal": 515,
+   "name": "?IntersectSegmentRectangle2D@Math@UGS@@YA_NQEBN0@Z"
+  },
+  {
+   "ordinal": 516,
+   "name": "?IsBoxAligned@Box3D@Math@UGS@@QEBA_NAEBV123@@Z"
+  },
+  {
+   "ordinal": 517,
+   "name": "?IsBoxClipped@Clipper@Clip@Math@UGS@@SA_NQEBNAEBUClipBounds@234@AEAH@Z"
+  },
+  {
+   "ordinal": 518,
+   "name": "?IsBoxInside@Box3D@Math@UGS@@QEAA_NAEAV123@N@Z"
+  },
+  {
+   "ordinal": 519,
+   "name": "?IsBoxInsidePercent@Box3D@Math@UGS@@QEAA_NAEAV123@N@Z"
+  },
+  {
+   "ordinal": 520,
+   "name": "?IsClippingWithMultipleBounds@ClipBounds@Clip@Math@UGS@@QEBA_NXZ"
+  },
+  {
+   "ordinal": 521,
+   "name": "?IsCoincidentToCorner@Box3D@Math@UGS@@CA_NQEA_N0AEAH11@Z"
+  },
+  {
+   "ordinal": 522,
+   "name": "?IsCoincidentToEdge@Box3D@Math@UGS@@CA_NQEA_N0AEAH1@Z"
+  },
+  {
+   "ordinal": 523,
+   "name": "?IsCoincidentToFace@Box3D@Math@UGS@@CA_NQEA_N0AEAH@Z"
+  },
+  {
+   "ordinal": 524,
+   "name": "?IsCollinear@PointCloudUtils@Math@UGS@@YA_NAEBUVector3@23@0@Z"
+  },
+  {
+   "ordinal": 525,
+   "name": "?IsInteriorPoint@Box3D@Math@UGS@@QEBA_NAEBUPoint3@23@N@Z"
+  },
+  {
+   "ordinal": 526,
+   "name": "?IsPointCoincidentToBox@Box3D@Math@UGS@@QEBA_NAEBUPoint3@23@NAEA_N11AEAH22@Z"
+  },
+  {
+   "ordinal": 527,
+   "name": "?IsPointInside@Box3D@Math@UGS@@QEBA_NAEBUPoint3@23@N@Z"
+  },
+  {
+   "ordinal": 528,
+   "name": "?IsPointInside@Box3D@Math@UGS@@QEBA_NAEBUPoint3@23@NAEA_N@Z"
+  },
+  {
+   "ordinal": 529,
+   "name": "?IsPointInsidePercent@Box3D@Math@UGS@@QEBA_NAEBUPoint3@23@N@Z"
+  },
+  {
+   "ordinal": 530,
+   "name": "?IsPointInsidePercent@Box3D@Math@UGS@@QEBA_NAEBUPoint3@23@NAEA_N@Z"
+  },
+  {
+   "ordinal": 531,
+   "name": "?IsPointVisible@Clipper@Clip@Math@UGS@@SA_NAEBUClipBounds@234@QEBN@Z"
+  },
+  {
+   "ordinal": 532,
+   "name": "?IsPolygonClipped@Clipper@Clip@Math@UGS@@SAXHPEBNAEBUClipBounds@234@AEA_NAEAH@Z"
+  },
+  {
+   "ordinal": 533,
+   "name": "?IsPolylineArcColinear@Math@UGS@@YA_NAEBV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@std@@_N@Z"
+  },
+  {
+   "ordinal": 534,
+   "name": "?IsPreciseZero@Vector3f@Math@UGS@@QEBA_NXZ"
+  },
+  {
+   "ordinal": 535,
+   "name": "?IsSingleConnectedGraph@Graph@Math@UGS@@QEBA_NXZ"
+  },
+  {
+   "ordinal": 536,
+   "name": "?IsSubGraphCoincidentToPoint@Graph@Math@UGS@@QEBA_NAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@AEBUPoint3@23@N@Z"
+  },
+  {
+   "ordinal": 537,
+   "name": "?IsValid@ClipBounds@Clip@Math@UGS@@QEBA_NXZ"
+  },
+  {
+   "ordinal": 538,
+   "name": "?IsZero@Vector3f@Math@UGS@@QEBA_NM@Z"
+  },
+  {
+   "ordinal": 539,
+   "name": "?LIBUGMATH_init_ugufun@@YAXXZ"
+  },
+  {
+   "ordinal": 540,
+   "name": "?LSFIT_adjust_axis_of_cone_from_ruling@@YAXPEAN_NPEAUPoint3@Math@UGS@@PEAUVector3@23@QEAU123@34QEAN0@Z"
+  },
+  {
+   "ordinal": 541,
+   "name": "?LSFIT_ask_acute_angle_of_lines_3d@@YANPEAUVector3@Math@UGS@@0N@Z"
+  },
+  {
+   "ordinal": 542,
+   "name": "?LSFIT_ask_dist_of_two_straight_lines@@YANPEAUPoint3@Math@UGS@@PEAUVector3@23@01PEAN0202PEA_N3@Z"
+  },
+  {
+   "ordinal": 543,
+   "name": "?LSFIT_ask_dist_pt_to_line_3d@@YANPEAUPoint3@Math@UGS@@0PEAUVector3@23@N0PEAN@Z"
+  },
+  {
+   "ordinal": 544,
+   "name": "?LSFIT_ask_mean_vec@@YAXHPEAUVector3@Math@UGS@@_N0PEAN@Z"
+  },
+  {
+   "ordinal": 545,
+   "name": "?LSFIT_ask_principle_axes_of_inertia_from_3d_pts@@YAXHPEAUPoint3@Math@UGS@@0QEANQEAUVector3@23@@Z"
+  },
+  {
+   "ordinal": 546,
+   "name": "?LSFIT_ask_principle_axes_of_inertia_from_3d_tensor@@YAXPEANQEANQEAUVector3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 547,
+   "name": "?LSFIT_ask_pts_centroid_2d@@YAXHPEAUPoint2@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 548,
+   "name": "?LSFIT_ask_pts_centroid_3d@@YAXHPEAUPoint3@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 549,
+   "name": "?LSFIT_circle_to_points_2d@@YAXPEAUPoint2@Math@UGS@@H0PEANPEAH1@Z"
+  },
+  {
+   "ordinal": 550,
+   "name": "?LSFIT_circle_to_points_2d@@YAXPEAUPoint2@Math@UGS@@HN0PEANPEAH1@Z"
+  },
+  {
+   "ordinal": 551,
+   "name": "?LSFIT_circle_to_points_3d@@YAXHPEAUPoint3@Math@UGS@@H0PEAUVector3@23@0PEANPEAH2PEAUCSYS_s@@@Z"
+  },
+  {
+   "ordinal": 552,
+   "name": "?LSFIT_circle_to_points_3d@@YAXHPEAUPoint3@Math@UGS@@HN0PEAUVector3@23@0PEANPEAH2PEAUCSYS_s@@@Z"
+  },
+  {
+   "ordinal": 553,
+   "name": "?LSFIT_circle_to_points_3d@@YAXPEAUPoint3@Math@UGS@@H0PEAUVector3@23@0PEANPEAH2PEAUCSYS_s@@@Z"
+  },
+  {
+   "ordinal": 554,
+   "name": "?LSFIT_circle_to_points_3d@@YAXPEAUPoint3@Math@UGS@@HN0PEAUVector3@23@0PEANPEAH2PEAUCSYS_s@@@Z"
+  },
+  {
+   "ordinal": 555,
+   "name": "?LSFIT_cone_to_lines@@YAXHPEAUPoint3@Math@UGS@@PEAUVector3@23@HPEANQEAU423@10PEAH0111QEANQEAU123@652@Z"
+  },
+  {
+   "ordinal": 556,
+   "name": "?LSFIT_copy_simple_developable_geom@@YAXPEAULSFIT_simple_developable_geom_s@@0@Z"
+  },
+  {
+   "ordinal": 557,
+   "name": "?LSFIT_cre_circumcircle_of_triangle@@YAXPEAUPoint3@Math@UGS@@000PEAN@Z"
+  },
+  {
+   "ordinal": 558,
+   "name": "?LSFIT_cre_circumsphere_of_tetrahedron@@YAXPEAUPoint3@Math@UGS@@0000PEAN@Z"
+  },
+  {
+   "ordinal": 559,
+   "name": "?LSFIT_cre_local_csys@@YAXPEAUPoint3@Math@UGS@@PEAUVector3@23@1PEAUTransformMatrix@23@2@Z"
+  },
+  {
+   "ordinal": 560,
+   "name": "?LSFIT_cre_tetrahedron_from_pts@@YAXHPEAUPoint3@Math@UGS@@NPEAH10000@Z"
+  },
+  {
+   "ordinal": 561,
+   "name": "?LSFIT_cylinder_to_lines@@YAXHPEAUPoint3@Math@UGS@@PEAUVector3@23@HPEANQEAU423@100211QEANQEAU123@PEAH2@Z"
+  },
+  {
+   "ordinal": 562,
+   "name": "?LSFIT_ellipse_func@@YAXPEAUPoint2@Math@UGS@@HHQEAN1PEAH@Z"
+  },
+  {
+   "ordinal": 563,
+   "name": "?LSFIT_ellipse_to_points_2d@@YAXPEAUPoint2@Math@UGS@@H0PEAN11PEAH1@Z"
+  },
+  {
+   "ordinal": 564,
+   "name": "?LSFIT_ellipse_to_points_3d@@YAXPEAUPoint3@Math@UGS@@H0PEAUVector3@23@0PEAN22PEAH2PEAUCSYS_s@@@Z"
+  },
+  {
+   "ordinal": 565,
+   "name": "?LSFIT_evaluate_simple_developable@@YAXPEANPEAULSFIT_simple_developable_geom_s@@PEAUPoint3@Math@UGS@@QEAUVector3@34@PEAU534@@Z"
+  },
+  {
+   "ordinal": 566,
+   "name": "?LSFIT_init_simple_developable_geom@@YAXPEAULSFIT_simple_developable_geom_s@@@Z"
+  },
+  {
+   "ordinal": 567,
+   "name": "?LSFIT_line_to_points_2d@@YAXHPEAUPoint2@Math@UGS@@H0PEAUVector2@23@PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 568,
+   "name": "?LSFIT_line_to_points_2d@@YAXPEAUPoint2@Math@UGS@@H0PEAUVector2@23@PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 569,
+   "name": "?LSFIT_line_to_points_3d@@YAXPEAUPoint3@Math@UGS@@HPEAUVector3@23@PEAH201PEANPEAUCSYS_s@@@Z"
+  },
+  {
+   "ordinal": 570,
+   "name": "?LSFIT_nonlinear_function@@YANPEAUPoint2@Math@UGS@@HHQEAN1NNNHN1HNHPEAH21HQEAH11111@Z"
+  },
+  {
+   "ordinal": 571,
+   "name": "?LSFIT_plane_fit_through_line@@YAHHPEAN0QEAN110@Z"
+  },
+  {
+   "ordinal": 572,
+   "name": "?LSFIT_plane_to_points@@YAXHPEAUPoint3@Math@UGS@@H0PEAUVector3@23@PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 573,
+   "name": "?LSFIT_plane_to_points@@YAXPEAUPoint3@Math@UGS@@H0PEAUVector3@23@PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 574,
+   "name": "?LSFIT_sphere_to_points_3d@@YAXPEAUPoint3@Math@UGS@@H0PEANPEAH1@Z"
+  },
+  {
+   "ordinal": 575,
+   "name": "?Length@Vector3f@Math@UGS@@QEBAMXZ"
+  },
+  {
+   "ordinal": 576,
+   "name": "?LengthSquared@Vector3f@Math@UGS@@QEBAMXZ"
+  },
+  {
+   "ordinal": 577,
+   "name": "?MCS_register_display_fn@@YAP6AXXZP6AXXZ@Z"
+  },
+  {
+   "ordinal": 578,
+   "name": "?MC_A_dot_B@@YANQEAN0@Z"
+  },
+  {
+   "ordinal": 579,
+   "name": "?MC_AmB@@YAXQEAN00@Z"
+  },
+  {
+   "ordinal": 580,
+   "name": "?MC_ApB@@YAXQEAN00@Z"
+  },
+  {
+   "ordinal": 581,
+   "name": "?MC_AxB@@YAXQEAN00@Z"
+  },
+  {
+   "ordinal": 582,
+   "name": "?MC_aA@@YAXNQEAN0@Z"
+  },
+  {
+   "ordinal": 583,
+   "name": "?MC_aApB@@YAXNQEAN00@Z"
+  },
+  {
+   "ordinal": 584,
+   "name": "?MC_apply_transform_to_point@@YAXQEAY03NQEAN1@Z"
+  },
+  {
+   "ordinal": 585,
+   "name": "?MC_apply_transform_to_vector@@YAXQEAY03NQEAN1@Z"
+  },
+  {
+   "ordinal": 586,
+   "name": "?MC_axis_plane_x@@YAXQEAN00N0@Z"
+  },
+  {
+   "ordinal": 587,
+   "name": "?MC_calc_csys_to_csys_transform@@YAXPEAUMC_csys_s@@0QEAY03N@Z"
+  },
+  {
+   "ordinal": 588,
+   "name": "?MC_determinant@@YANQEAY03N@Z"
+  },
+  {
+   "ordinal": 589,
+   "name": "?MC_dist2@@YANQEAN0@Z"
+  },
+  {
+   "ordinal": 590,
+   "name": "?MC_dist@@YANQEAN0@Z"
+  },
+  {
+   "ordinal": 591,
+   "name": "?MC_dist_lines@@YANQEAN000@Z"
+  },
+  {
+   "ordinal": 592,
+   "name": "?MC_get_angle@@YANQEAN0@Z"
+  },
+  {
+   "ordinal": 593,
+   "name": "?MC_length2@@YANQEAN@Z"
+  },
+  {
+   "ordinal": 594,
+   "name": "?MC_length@@YANQEAN@Z"
+  },
+  {
+   "ordinal": 595,
+   "name": "?MC_perp_from_line_to_point@@YAXQEAN000@Z"
+  },
+  {
+   "ordinal": 596,
+   "name": "?MC_perp_vec@@YAXQEAN0@Z"
+  },
+  {
+   "ordinal": 597,
+   "name": "?MC_proj_point_onto_line@@YAXQEAN000@Z"
+  },
+  {
+   "ordinal": 598,
+   "name": "?MC_proj_point_onto_plane@@YAXQEAN0N0@Z"
+  },
+  {
+   "ordinal": 599,
+   "name": "?MC_q_parallel@@YA_NQEAN0@Z"
+  },
+  {
+   "ordinal": 600,
+   "name": "?MC_q_perp@@YA_NQEAN0@Z"
+  },
+  {
+   "ordinal": 601,
+   "name": "?MC_q_point_on_line@@YA_NQEAN00@Z"
+  },
+  {
+   "ordinal": 602,
+   "name": "?MC_signed_dist_plane_axis@@YANQEANN00@Z"
+  },
+  {
+   "ordinal": 603,
+   "name": "?MC_signed_dist_planes@@YANQEANN0N@Z"
+  },
+  {
+   "ordinal": 604,
+   "name": "?MC_solve_3@@YAXQEAY03NQEAN@Z"
+  },
+  {
+   "ordinal": 605,
+   "name": "?MC_triple_product@@YANQEAN00@Z"
+  },
+  {
+   "ordinal": 606,
+   "name": "?MC_v_copy@@YAXQEAN0@Z"
+  },
+  {
+   "ordinal": 607,
+   "name": "?MC_v_unit@@YAXQEAN@Z"
+  },
+  {
+   "ordinal": 608,
+   "name": "?MTX2_init@@YAHPEBUVector2@Math@UGS@@0PEAUMatrix2@23@@Z"
+  },
+  {
+   "ordinal": 609,
+   "name": "?MTX3_apply_scale_factor@@YA_NPEAUMatrix3@Math@UGS@@NPEAN@Z"
+  },
+  {
+   "ordinal": 610,
+   "name": "?MTX3_ask_all_roll_pitch_yaw@@YAXPEBUMatrix3@Math@UGS@@PEAHQEAY02N@Z"
+  },
+  {
+   "ordinal": 611,
+   "name": "?MTX3_ask_roll_pitch_yaw@@YAXPEBUMatrix3@Math@UGS@@PEAN11@Z"
+  },
+  {
+   "ordinal": 612,
+   "name": "?MTX3_can_be_fixed_up@@YAHPEBUMatrix3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 613,
+   "name": "?MTX3_fixup_foreign@@YA?AW4MTX_foreign_status_e@@PEAUMatrix3@Math@UGS@@_NPEAN@Z"
+  },
+  {
+   "ordinal": 614,
+   "name": "?MTX3_get_scale_factor@@YA_NPEBUMatrix3@Math@UGS@@NPEAN@Z"
+  },
+  {
+   "ordinal": 615,
+   "name": "?MTX3_init@@YAHPEBUVector3@Math@UGS@@0PEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 616,
+   "name": "?MTX3_init_no_check@@YAXPEBUVector3@Math@UGS@@0PEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 617,
+   "name": "?MTX3_init_roll_pitch_yaw@@YAXNNNPEAUMatrix3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 618,
+   "name": "?MTX3_init_tol@@YA_NPEBUVector3@Math@UGS@@0PEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 619,
+   "name": "?MTX3_init_x@@YAHPEBUVector3@Math@UGS@@PEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 620,
+   "name": "?MTX3_init_x_y_z@@YAHPEBUVector3@Math@UGS@@00PEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 621,
+   "name": "?MTX3_init_y_z@@YAHPEBUVector3@Math@UGS@@0PEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 622,
+   "name": "?MTX3_init_z@@YAHPEBUVector3@Math@UGS@@PEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 623,
+   "name": "?MTX3_is_equal@@YA_NPEBUMatrix3@Math@UGS@@0N@Z"
+  },
+  {
+   "ordinal": 624,
+   "name": "?MTX3_is_identity@@YA_NPEBUMatrix3@Math@UGS@@N@Z"
+  },
+  {
+   "ordinal": 625,
+   "name": "?MTX3_is_ortho_normal@@YA_NPEBUMatrix3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 626,
+   "name": "?MTX3_is_ortho_normal@@YA_NPEBUMatrix3@Math@UGS@@N@Z"
+  },
+  {
+   "ordinal": 627,
+   "name": "?MTX3_lprintf@@YAXHPEBDPEBUMatrix3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 628,
+   "name": "?MTX3_multiply@@YAXPEBUMatrix3@Math@UGS@@0PEAU123@@Z"
+  },
+  {
+   "ordinal": 629,
+   "name": "?MTX3_multiply_t@@YAXPEBUMatrix3@Math@UGS@@0PEAU123@@Z"
+  },
+  {
+   "ordinal": 630,
+   "name": "?MTX3_ortho_normalize@@YA_NPEAUMatrix3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 631,
+   "name": "?MTX3_rot_about_axis@@YAXNPEBUVector3@Math@UGS@@PEAUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 632,
+   "name": "?MTX4_csys_to_csys@@YAHPEBUPoint3@Math@UGS@@PEBUVector3@23@1011PEAUTransformMatrix@23@@Z"
+  },
+  {
+   "ordinal": 633,
+   "name": "?MTX4_csys_to_csys@@YAHPEBUPoint3@Math@UGS@@PEBUVector3@23@110111PEAUTransformMatrix@23@@Z"
+  },
+  {
+   "ordinal": 634,
+   "name": "?MTX4_fixup@@YAHPEAUTransformMatrix@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 635,
+   "name": "?MTX4_fixup_foreign@@YA?AW4MTX_foreign_status_e@@PEAUTransformMatrix@Math@UGS@@_NPEAN@Z"
+  },
+  {
+   "ordinal": 636,
+   "name": "?MTX4_from_csys_to_csys@@YA?AUTransformMatrix@Math@UGS@@AEBUCSYS_s@@0@Z"
+  },
+  {
+   "ordinal": 637,
+   "name": "?MTX4_invert@@YAHPEBUTransformMatrix@Math@UGS@@PEAU123@@Z"
+  },
+  {
+   "ordinal": 638,
+   "name": "?MTX4_is_equal@@YA_NPEBUTransformMatrix@Math@UGS@@0N@Z"
+  },
+  {
+   "ordinal": 639,
+   "name": "?MTX4_is_equal_transform@@YA_NPEAUTransformMatrix@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 640,
+   "name": "?MTX4_is_equal_transform@@YA_NPEBUTransformMatrix@Math@UGS@@0NNN@Z"
+  },
+  {
+   "ordinal": 641,
+   "name": "?MTX4_is_identity@@YA_NPEBUTransformMatrix@Math@UGS@@N@Z"
+  },
+  {
+   "ordinal": 642,
+   "name": "?MTX4_is_ortho_normal@@YA_NPEBUTransformMatrix@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 643,
+   "name": "?MTX4_is_ortho_normal@@YA_NPEBUTransformMatrix@Math@UGS@@N@Z"
+  },
+  {
+   "ordinal": 644,
+   "name": "?MTX4_is_point_on_rotation_axis@@YA_NPEAUTransformMatrix@Math@UGS@@QEAN@Z"
+  },
+  {
+   "ordinal": 645,
+   "name": "?MTX4_is_reflection@@YA_NPEBUTransformMatrix@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 646,
+   "name": "?MTX4_is_rotation_about_axis@@YA_NPEAUTransformMatrix@Math@UGS@@QEAN1@Z"
+  },
+  {
+   "ordinal": 647,
+   "name": "?MTX4_is_rotation_null@@YA_NPEAUTransformMatrix@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 648,
+   "name": "?MTX4_is_transform_in_plane@@YA_NPEAUTransformMatrix@Math@UGS@@PEAN@Z"
+  },
+  {
+   "ordinal": 649,
+   "name": "?MTX4_is_translation_in_direction@@YA_NPEAUTransformMatrix@Math@UGS@@PEAN@Z"
+  },
+  {
+   "ordinal": 650,
+   "name": "?MTX4_is_translation_null@@YA_NPEAUTransformMatrix@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 651,
+   "name": "?MTX4_local_scaling@@YA?AUTransformMatrix@Math@UGS@@AEBUCSYS_s@@AEBUVector3@23@@Z"
+  },
+  {
+   "ordinal": 652,
+   "name": "?MTX4_local_shearing@@YA?AUTransformMatrix@Math@UGS@@AEBUCSYS_s@@W4CSYS_axis_type_e@@1N@Z"
+  },
+  {
+   "ordinal": 653,
+   "name": "?MTX4_lprintf@@YAXHPEBDPEBUTransformMatrix@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 654,
+   "name": "?MTX4_mirror@@YAHPEBUPoint3@Math@UGS@@PEBUVector3@23@PEAUTransformMatrix@23@@Z"
+  },
+  {
+   "ordinal": 655,
+   "name": "?MTX4_multiply@@YAXPEBUTransformMatrix@Math@UGS@@0PEAU123@@Z"
+  },
+  {
+   "ordinal": 656,
+   "name": "?MTX4_multiply_t@@YAXPEBUTransformMatrix@Math@UGS@@0PEAU123@@Z"
+  },
+  {
+   "ordinal": 657,
+   "name": "?MTX4_ortho_normalize@@YA_NPEAUTransformMatrix@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 658,
+   "name": "?MTX4_rotation@@YAHPEBUPoint3@Math@UGS@@PEBUVector3@23@NPEAUTransformMatrix@23@@Z"
+  },
+  {
+   "ordinal": 659,
+   "name": "?MTX4_scaling@@YAXPEBUPoint3@Math@UGS@@PEBUVector3@23@PEAUTransformMatrix@23@@Z"
+  },
+  {
+   "ordinal": 660,
+   "name": "?MakeInternalCopy@Graph@Math@UGS@@AEBAXXZ"
+  },
+  {
+   "ordinal": 661,
+   "name": "?MapCompressedVertices@Graph@Math@UGS@@AEBAHAEBV?$vector@U?$pair@HUPoint3@Math@UGS@@@std@@V?$SMAlloc@U?$pair@HUPoint3@Math@UGS@@@std@@@Memory@UGS@@@std@@AEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@5@1@Z"
+  },
+  {
+   "ordinal": 662,
+   "name": "?MultiplyMatrices@Math@UGS@@YAXQEBN0HHHQEAN@Z"
+  },
+  {
+   "ordinal": 663,
+   "name": "?NR_2d_matrix_allo@@YAPEAPEANHHPEAPEAN@Z"
+  },
+  {
+   "ordinal": 664,
+   "name": "?NR_2d_matrix_identity@@YAXPEAPEANH@Z"
+  },
+  {
+   "ordinal": 665,
+   "name": "?NR_2d_matrix_init_zero@@YAXPEAPEANHH@Z"
+  },
+  {
+   "ordinal": 666,
+   "name": "?NR_2d_matrix_nxn_transp@@YAXPEAPEANH@Z"
+  },
+  {
+   "ordinal": 667,
+   "name": "?NR_2d_matrix_product_of_2@@YAXPEAPEAN0HHH0@Z"
+  },
+  {
+   "ordinal": 668,
+   "name": "?NR_amoeba@@YAHQEAN0HNHP6AN0PEAX@Z1PEAH@Z"
+  },
+  {
+   "ordinal": 669,
+   "name": "?NR_ask_eigenvalues_jacobi@@YAXPEAPEANHHQEAN0PEAH@Z"
+  },
+  {
+   "ordinal": 670,
+   "name": "?NR_ask_max_eigen_val_vec@@YAXHPEAPEANHPEAN11PEAH@Z"
+  },
+  {
+   "ordinal": 671,
+   "name": "?NR_cholesky_decomp@@YAXHPEANQEANPEAH@Z"
+  },
+  {
+   "ordinal": 672,
+   "name": "?NR_cholesky_inverse@@YAXHQEANPEAN@Z"
+  },
+  {
+   "ordinal": 673,
+   "name": "?NR_cholesky_solver@@YAXPEANHQEAN11@Z"
+  },
+  {
+   "ordinal": 674,
+   "name": "?NR_generalized_eigenvalues_symm@@YAXPEAN0HHQEAN0PEAH2@Z"
+  },
+  {
+   "ordinal": 675,
+   "name": "?NR_matrix_2d_as_1d_identity@@YAXPEANH@Z"
+  },
+  {
+   "ordinal": 676,
+   "name": "?NR_matrix_2d_as_1d_init_zero@@YAXPEANHH@Z"
+  },
+  {
+   "ordinal": 677,
+   "name": "?NR_matrix_2d_as_1d_init_zero_lt@@YAXPEANH@Z"
+  },
+  {
+   "ordinal": 678,
+   "name": "?NR_matrix_2d_as_1d_init_zero_ut@@YAXPEANH@Z"
+  },
+  {
+   "ordinal": 679,
+   "name": "?NR_matrix_2d_as_1d_nxn_transp@@YAXPEANH@Z"
+  },
+  {
+   "ordinal": 680,
+   "name": "?NR_matrix_2d_as_1d_product_of_2@@YAXPEAN0HHH0@Z"
+  },
+  {
+   "ordinal": 681,
+   "name": "?NR_matrix_copy_1d_to_2d@@YAXPEANHHPEAPEAN@Z"
+  },
+  {
+   "ordinal": 682,
+   "name": "?NR_matrix_copy_2d_to_1d@@YAXPEAPEANHHPEAN@Z"
+  },
+  {
+   "ordinal": 683,
+   "name": "?NR_odeint@@YAXPEANNNNNNPEAXP6AX1000PEAH@Z2@Z"
+  },
+  {
+   "ordinal": 684,
+   "name": "?NR_qsimp@@YAXPEAXP6AX0PEANQEANPEAH@ZHNNNH23@Z"
+  },
+  {
+   "ordinal": 685,
+   "name": "?NormalizeVector@Math@UGS@@YA_NQEBNHQEAN@Z"
+  },
+  {
+   "ordinal": 686,
+   "name": "?PLN3_init_from_equation@@YA_NAEAUPLN3_s@@QEBN@Z"
+  },
+  {
+   "ordinal": 687,
+   "name": "?PLN3_intersect_plane@@YAHPEBUPLN3_s@@0AEAUPoint3@Math@UGS@@AEAUVector3@34@@Z"
+  },
+  {
+   "ordinal": 688,
+   "name": "?PLN3_is_coincident@@YA_NPEBUPLN3_s@@0NN@Z"
+  },
+  {
+   "ordinal": 689,
+   "name": "?PLN3_is_equal@@YA_NPEBUPLN3_s@@0NN@Z"
+  },
+  {
+   "ordinal": 690,
+   "name": "?PLN3_is_point_on_plane@@YA_NPEBUPLN3_s@@PEBUPoint3@Math@UGS@@N@Z"
+  },
+  {
+   "ordinal": 691,
+   "name": "?PLN3_is_segment_intersecting@@YA_NPEBUPLN3_s@@PEBUPoint3@Math@UGS@@1N@Z"
+  },
+  {
+   "ordinal": 692,
+   "name": "?PNT3_ask_closest_point@@YAXPEBUPoint3@Math@UGS@@PEBUVector3@23@0HPEAU123@@Z"
+  },
+  {
+   "ordinal": 693,
+   "name": "?PNT3_cartesian_to_cylindrical@@YAXPEAUPoint3@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 694,
+   "name": "?PNT3_cartesian_to_spherical@@YAXPEAUPoint3@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 695,
+   "name": "?PNT3_colinear_condition@@YA?AW4PNT3_colinear_condition_t@@PEBUPoint3@Math@UGS@@00N@Z"
+  },
+  {
+   "ordinal": 696,
+   "name": "?PNT3_cylindrical_to_cartesian@@YAXPEAUPoint3@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 697,
+   "name": "?PNT3_is_colinear@@YA_NPEBUPoint3@Math@UGS@@00N@Z"
+  },
+  {
+   "ordinal": 698,
+   "name": "?PNT3_proj_to_plane@@YA_NPEBUPoint3@Math@UGS@@PEBUPLN3_s@@PEAU123@@Z"
+  },
+  {
+   "ordinal": 699,
+   "name": "?PNT3_spherical_to_cartesian@@YAXPEAUPoint3@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 700,
+   "name": "?PNTLST_allocate_points@@YAXPEAUPNTLST_s@@H@Z"
+  },
+  {
+   "ordinal": 701,
+   "name": "?PNTLST_allocate_struct@@YAPEAUPNTLST_s@@HH@Z"
+  },
+  {
+   "ordinal": 702,
+   "name": "?PNTLST_calc_point_distance@@YANPEAUPNTLST_s@@HH@Z"
+  },
+  {
+   "ordinal": 703,
+   "name": "?PNTLST_concat_one_point@@YAXPEAUPNTLST_s@@PEAN@Z"
+  },
+  {
+   "ordinal": 704,
+   "name": "?PNTLST_convert_4d_to_3d@@YAXPEAUPNTLST_s@@@Z"
+  },
+  {
+   "ordinal": 705,
+   "name": "?PNTLST_copy_points@@YAPEANPEAUPNTLST_s@@PEAH1@Z"
+  },
+  {
+   "ordinal": 706,
+   "name": "?PNTLST_copy_single_point@@YAXPEAUPNTLST_s@@HPEAN@Z"
+  },
+  {
+   "ordinal": 707,
+   "name": "?PNTLST_copy_structure@@YAPEAUPNTLST_s@@PEAU1@@Z"
+  },
+  {
+   "ordinal": 708,
+   "name": "?PNTLST_create_from_list_of_pts@@YAPEAUPNTLST_s@@PEANHH@Z"
+  },
+  {
+   "ordinal": 709,
+   "name": "?PNTLST_free_all_but_points@@YAXPEAUPNTLST_s@@@Z"
+  },
+  {
+   "ordinal": 710,
+   "name": "?PNTLST_free_structure@@YAXPEAUPNTLST_s@@@Z"
+  },
+  {
+   "ordinal": 711,
+   "name": "?PNTLST_get_from_func@@YAPEAUPNTLST_s@@HHP6AXHPEAN@Z@Z"
+  },
+  {
+   "ordinal": 712,
+   "name": "?PNTLST_insert_points@@YAXPEAUPNTLST_s@@HHPEAN@Z"
+  },
+  {
+   "ordinal": 713,
+   "name": "?PNTLST_remove_points@@YAXPEAUPNTLST_s@@HH@Z"
+  },
+  {
+   "ordinal": 714,
+   "name": "?PNTLST_replace_points@@YAXPEAUPNTLST_s@@HHPEAN@Z"
+  },
+  {
+   "ordinal": 715,
+   "name": "?PNTLST_reverse@@YAXPEAUPNTLST_s@@@Z"
+  },
+  {
+   "ordinal": 716,
+   "name": "?PNTLST_transform@@YAXPEAUPNTLST_s@@PEAUTransformMatrix@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 717,
+   "name": "?PTF_free_output@@YAXHPEAUPTF_tri_s@@PEAUPTF_pt_neighbors_s@@PEAUPTF_bnd_edge_neighbors_s@@@Z"
+  },
+  {
+   "ordinal": 718,
+   "name": "?PTF_poly_tri_fill@@YA?AW4PTF_fill_status_e@@HPEAUPoint2@Math@UGS@@PEAHPEAPEAUPTF_tri_s@@PEAPEAUPTF_bnd_edge_neighbors_s@@PEAPEAUPTF_pt_neighbors_s@@@Z"
+  },
+  {
+   "ordinal": 719,
+   "name": "?PTF_validate_boundary@@YA_NHPEAUPoint2@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 720,
+   "name": "?PatternAlongMajorAxis@Graph@Math@UGS@@QEAAXNHHH@Z"
+  },
+  {
+   "ordinal": 721,
+   "name": "?PreciseEquals@Vector3f@Math@UGS@@QEBA_NAEBU123@@Z"
+  },
+  {
+   "ordinal": 722,
+   "name": "?ProjectPointOn2DLine@Math@UGS@@YAXQEBN0AEANQEAN@Z"
+  },
+  {
+   "ordinal": 723,
+   "name": "?ProjectPointOn2DLineT@Math@UGS@@YAXQEBN0AEAN@Z"
+  },
+  {
+   "ordinal": 724,
+   "name": "?ProjectPointOn2DSegment@Math@UGS@@YAXQEBN0AEANQEAN@Z"
+  },
+  {
+   "ordinal": 725,
+   "name": "?ProjectPointOnSegment@Math@UGS@@YAXQEBN00QEANAEAN@Z"
+  },
+  {
+   "ordinal": 726,
+   "name": "?RegisterMe@IAcomParameterAccess@Part@UGS@@MEBAXPEAV123@@Z"
+  },
+  {
+   "ordinal": 727,
+   "name": "?RemoveEdges@Graph@Math@UGS@@QEAAXAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 728,
+   "name": "?RemoveEdgesFromConnectivityMap@Graph@Math@UGS@@AEAAXAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@AEAV45@1@Z"
+  },
+  {
+   "ordinal": 729,
+   "name": "?RotationFromTwoVectors@PointCloudUtils@Math@UGS@@YA?AUMatrix3@23@AEBUVector3@23@0W4Alignment@123@@Z"
+  },
+  {
+   "ordinal": 730,
+   "name": "?RoundDownNumber@Math@UGS@@YANNH@Z"
+  },
+  {
+   "ordinal": 731,
+   "name": "?RoundNumberASME@Math@UGS@@YANNH@Z"
+  },
+  {
+   "ordinal": 732,
+   "name": "?RoundUpNumber@Math@UGS@@YANNH@Z"
+  },
+  {
+   "ordinal": 733,
+   "name": "?SOLVE_cubic@@YAHQEBNQEAN@Z"
+  },
+  {
+   "ordinal": 734,
+   "name": "?SOLVE_function_root@@YAHP6ANNPEAX@Z0NNNPEAN@Z"
+  },
+  {
+   "ordinal": 735,
+   "name": "?SOLVE_lu_banded_solver@@YAHPEAPEAN0HHHH@Z"
+  },
+  {
+   "ordinal": 736,
+   "name": "?SOLVE_lu_solver@@YAHPEAPEAN0HH@Z"
+  },
+  {
+   "ordinal": 737,
+   "name": "?SOLVE_lu_solver_with_abort@@YAHPEAPEAN0HHP6A_NXZ@Z"
+  },
+  {
+   "ordinal": 738,
+   "name": "?SOLVE_polynomial@@YAHHQEBNQEAN@Z"
+  },
+  {
+   "ordinal": 739,
+   "name": "?SOLVE_quadratic@@YAHQEBNQEAN@Z"
+  },
+  {
+   "ordinal": 740,
+   "name": "?SOLVE_quartic@@YAHQEBNQEAN@Z"
+  },
+  {
+   "ordinal": 741,
+   "name": "?SOLVE_solve_2equations@@YAHQEAY01NQEAN1@Z"
+  },
+  {
+   "ordinal": 742,
+   "name": "?SOLVE_solve_3equations@@YAHQEAY02NQEAN1@Z"
+  },
+  {
+   "ordinal": 743,
+   "name": "?SOLVE_svd_allo_2d_matrix@@YAPEAPEANHH@Z"
+  },
+  {
+   "ordinal": 744,
+   "name": "?SOLVE_svd_decompose@@YAXPEAPEANHHPEAN0@Z"
+  },
+  {
+   "ordinal": 745,
+   "name": "?SOLVE_svd_free_2d_matrix@@YAXPEAPEANH@Z"
+  },
+  {
+   "ordinal": 746,
+   "name": "?SOLVE_svd_solver@@YAXPEAPEANHPEAHQEAN2@Z"
+  },
+  {
+   "ordinal": 747,
+   "name": "?SOLVE_svd_solver_r@@YAXPEAPEANHPEAHQEAN2N@Z"
+  },
+  {
+   "ordinal": 748,
+   "name": "?SOLVE_svd_solver_r_x@@YAXPEAPEANHPEAHH00N@Z"
+  },
+  {
+   "ordinal": 749,
+   "name": "?SameVertexPosition@Graph@Math@UGS@@CA_NAEBU?$pair@HUPoint3@Math@UGS@@@std@@0@Z"
+  },
+  {
+   "ordinal": 750,
+   "name": "?ScaleMatrix@Math@UGS@@YAXQEBNNHHQEAN@Z"
+  },
+  {
+   "ordinal": 751,
+   "name": "?Set@Vector3f@Math@UGS@@QEAAXMMM@Z"
+  },
+  {
+   "ordinal": 752,
+   "name": "?Set@Vector3f@Math@UGS@@QEAAXPEBM@Z"
+  },
+  {
+   "ordinal": 753,
+   "name": "?Set@Vector3f@Math@UGS@@QEAAXPEBN@Z"
+  },
+  {
+   "ordinal": 754,
+   "name": "?SetAlgorithmVersion@Math@UGS@@YA?AV?$SharedPtr@VAlgorithmVersionRestorer@Math@UGS@@@Memory@2@W4AlgorithmVersion@12@_N@Z"
+  },
+  {
+   "ordinal": 755,
+   "name": "?SetAlgorithmVersion@Math@UGS@@YAXH@Z"
+  },
+  {
+   "ordinal": 756,
+   "name": "?SetAlgorithmVersionIfNewer@Math@UGS@@YA?AV?$SharedPtr@VAlgorithmVersionRestorer@Math@UGS@@@Memory@2@W4AlgorithmVersion@12@_N@Z"
+  },
+  {
+   "ordinal": 757,
+   "name": "?SetAllVertexCoordinates@Graph@Math@UGS@@QEAAXAEBV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@std@@@Z"
+  },
+  {
+   "ordinal": 758,
+   "name": "?SetDisTol@StlPoint3Less@UGS@@SAXN@Z"
+  },
+  {
+   "ordinal": 759,
+   "name": "?SetFromCorners@Box3D@Math@UGS@@QEAA_NQEBUVector3@23@@Z"
+  },
+  {
+   "ordinal": 760,
+   "name": "?SetFromParasolidBoundingBox@Box3D@Math@UGS@@QEAAXAEBUPK_BOX_s@@@Z"
+  },
+  {
+   "ordinal": 761,
+   "name": "?SetGlobalTolerances@Math@UGS@@YAX$$QEAV?$unique_ptr@VITolerances@Math@UGS@@U?$default_delete@VITolerances@Math@UGS@@@std@@@std@@@Z"
+  },
+  {
+   "ordinal": 762,
+   "name": "?SetLatestAlgorithmVersion@Math@UGS@@YA?AV?$SharedPtr@VAlgorithmVersionRestorer@Math@UGS@@@Memory@2@_N@Z"
+  },
+  {
+   "ordinal": 763,
+   "name": "?SetLengths@Box3D@Math@UGS@@QEAAXNNN@Z"
+  },
+  {
+   "ordinal": 764,
+   "name": "?SetMaxPoint@Box3D@Math@UGS@@QEAAXHN@Z"
+  },
+  {
+   "ordinal": 765,
+   "name": "?SetMinPoint@Box3D@Math@UGS@@QEAAXHN@Z"
+  },
+  {
+   "ordinal": 766,
+   "name": "?SetOrientation@Box3D@Math@UGS@@QEAAXAEBUMatrix3@23@@Z"
+  },
+  {
+   "ordinal": 767,
+   "name": "?SetOrigin@Box3D@Math@UGS@@QEAAXAEBUPoint3@23@@Z"
+  },
+  {
+   "ordinal": 768,
+   "name": "?SetThreadTolerances@Math@UGS@@YAXPEBVITolerances@12@@Z"
+  },
+  {
+   "ordinal": 769,
+   "name": "?SetVertexCoordinates@Graph@Math@UGS@@QEAAXHAEBUPoint3@23@@Z"
+  },
+  {
+   "ordinal": 770,
+   "name": "?SetXLength@Box3D@Math@UGS@@QEAAXN@Z"
+  },
+  {
+   "ordinal": 771,
+   "name": "?SetYLength@Box3D@Math@UGS@@QEAAXN@Z"
+  },
+  {
+   "ordinal": 772,
+   "name": "?SetZLength@Box3D@Math@UGS@@QEAAXN@Z"
+  },
+  {
+   "ordinal": 773,
+   "name": "?SetZero@Vector3f@Math@UGS@@QEAAXXZ"
+  },
+  {
+   "ordinal": 774,
+   "name": "?SplitAlignedBoxAlongAxis@Box3D@Math@UGS@@QEBAXW4AXIS@23@AEAV123@1@Z"
+  },
+  {
+   "ordinal": 775,
+   "name": "?ToString@Vector3@Math@UGS@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$SMAlloc@D@Memory@UGS@@@std@@XZ"
+  },
+  {
+   "ordinal": 776,
+   "name": "?ToString@Vector3f@Math@UGS@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$SMAlloc@D@Memory@UGS@@@std@@XZ"
+  },
+  {
+   "ordinal": 777,
+   "name": "?TraceConnectedSubGraphs@Graph@Math@UGS@@QEBAXAEAV?$vector@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@V?$SMAlloc@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 778,
+   "name": "?TrackSubGraphs@Graph@Math@UGS@@QEBAXAEBV?$vector@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@V?$SMAlloc@V?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Memory@UGS@@@std@@AEAV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@5@AEAV?$vector@HV?$SMAlloc@H@Memory@UGS@@@5@N@Z"
+  },
+  {
+   "ordinal": 779,
+   "name": "?TransformAndAlign@Box3D@Math@UGS@@QEAAXQEAN@Z"
+  },
+  {
+   "ordinal": 780,
+   "name": "?Translate@Graph@Math@UGS@@QEAAXAEBUVector3@23@@Z"
+  },
+  {
+   "ordinal": 781,
+   "name": "?Unitize@Vector3f@Math@UGS@@QEAAAEAU123@XZ"
+  },
+  {
+   "ordinal": 782,
+   "name": "?Unitized@Vector3f@Math@UGS@@QEBA?AU123@XZ"
+  },
+  {
+   "ordinal": 783,
+   "name": "?UpdateEdgeToVertexConnectivity@Graph@Math@UGS@@AEAAXAEBV?$vector@HV?$SMAlloc@H@Memory@UGS@@@std@@@Z"
+  },
+  {
+   "ordinal": 784,
+   "name": "?VEC2_ask_perpendicular@@YAHPEBUVector2@Math@UGS@@PEAU123@@Z"
+  },
+  {
+   "ordinal": 785,
+   "name": "?VEC2_ask_shortest_vector@@YAHHPEBUVector2@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 786,
+   "name": "?VEC2_components@@YAHPEBUVector2@Math@UGS@@00NPEAN1@Z"
+  },
+  {
+   "ordinal": 787,
+   "name": "?VEC2_is_parallel@@YA_NPEBUVector2@Math@UGS@@0N@Z"
+  },
+  {
+   "ordinal": 788,
+   "name": "?VEC2_is_perpendicular@@YA_NPEBUVector2@Math@UGS@@0N@Z"
+  },
+  {
+   "ordinal": 789,
+   "name": "?VEC2_unitize@@YAHPEBUVector2@Math@UGS@@NPEANPEAU123@@Z"
+  },
+  {
+   "ordinal": 790,
+   "name": "?VEC3_angle_between@@YANPEBUVector3@Math@UGS@@00@Z"
+  },
+  {
+   "ordinal": 791,
+   "name": "?VEC3_ask_perpendicular@@YAHPEBUVector3@Math@UGS@@PEAU123@@Z"
+  },
+  {
+   "ordinal": 792,
+   "name": "?VEC3_find_acute_angle_between@@YANPEBUVector3@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 793,
+   "name": "?VEC3_find_angle_between@@YANPEBUVector3@Math@UGS@@0@Z"
+  },
+  {
+   "ordinal": 794,
+   "name": "?VEC3_is_parallel@@YA_NPEBUVector3@Math@UGS@@0N@Z"
+  },
+  {
+   "ordinal": 795,
+   "name": "?VEC3_is_perpendicular@@YA_NPEBUVector3@Math@UGS@@0N@Z"
+  },
+  {
+   "ordinal": 796,
+   "name": "?VEC3_make_perpendicular@@YAHPEBUVector3@Math@UGS@@PEAU123@@Z"
+  },
+  {
+   "ordinal": 797,
+   "name": "?VEC3_make_trihedral@@YAXPEBUVector3@Math@UGS@@0PEAU123@11@Z"
+  },
+  {
+   "ordinal": 798,
+   "name": "?VEC3_unitize@@YAHPEAUVector3@Math@UGS@@PEAN@Z"
+  },
+  {
+   "ordinal": 799,
+   "name": "?VEC3_unitize@@YAHPEBUVector3@Math@UGS@@NPEANPEAU123@@Z"
+  },
+  {
+   "ordinal": 800,
+   "name": "?VectorMagnitude@Math@UGS@@YAMQEBM@Z"
+  },
+  {
+   "ordinal": 801,
+   "name": "?VectorMagnitude@Math@UGS@@YANQEBNH@Z"
+  },
+  {
+   "ordinal": 802,
+   "name": "?VertexLessThan@Graph@Math@UGS@@CA_NAEBU?$pair@HUPoint3@Math@UGS@@@std@@0@Z"
+  },
+  {
+   "ordinal": 803,
+   "name": "?WCS__set_matrix_tag@@YAXI@Z"
+  },
+  {
+   "ordinal": 804,
+   "name": "?WCS__set_matrix_values@@YAXPEBUMatrix3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 805,
+   "name": "?WCS_ask_coordinate_system@@YAXPEAUCSYS_s@@@Z"
+  },
+  {
+   "ordinal": 806,
+   "name": "?WCS_ask_matrix@@YAXPEAUMatrix3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 807,
+   "name": "?WCS_ask_matrix_tag@@YAIXZ"
+  },
+  {
+   "ordinal": 808,
+   "name": "?WCS_ask_origin@@YAXPEAUPoint3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 809,
+   "name": "?WCS_ask_skeleton@@YAIXZ"
+  },
+  {
+   "ordinal": 810,
+   "name": "?WCS_ask_tag@@YAIXZ"
+  },
+  {
+   "ordinal": 811,
+   "name": "?WCS_ask_view_names_skeleton@@YAIXZ"
+  },
+  {
+   "ordinal": 812,
+   "name": "?WCS_ask_wcs_display@@YAXPEAH@Z"
+  },
+  {
+   "ordinal": 813,
+   "name": "?WCS_ask_work_plane@@YAXPEAUPLN3_s@@@Z"
+  },
+  {
+   "ordinal": 814,
+   "name": "?WCS_ask_z_axis@@YAXPEAUVector3@Math@UGS@@@Z"
+  },
+  {
+   "ordinal": 815,
+   "name": "?WCS_is_linked_to_view@@YA_NXZ"
+  },
+  {
+   "ordinal": 816,
+   "name": "?WCS_is_permanent@@YA_NXZ"
+  },
+  {
+   "ordinal": 817,
+   "name": "?WCS_is_temporary@@YA_NXZ"
+  },
+  {
+   "ordinal": 818,
+   "name": "?WCS_set_linked_to_view@@YAX_N@Z"
+  },
+  {
+   "ordinal": 819,
+   "name": "?WCS_set_permanent@@YAX_N@Z"
+  },
+  {
+   "ordinal": 820,
+   "name": "?WCS_set_skeleton@@YAXI@Z"
+  },
+  {
+   "ordinal": 821,
+   "name": "?WCS_set_tag@@YAXI@Z"
+  },
+  {
+   "ordinal": 822,
+   "name": "?WCS_set_view_names_skeleton@@YAXI@Z"
+  },
+  {
+   "ordinal": 823,
+   "name": "?WCS_set_wcs_display@@YAXH@Z"
+  },
+  {
+   "ordinal": 824,
+   "name": "?WrapPoints@Box3D@Math@UGS@@QEAAXAEBV?$vector@UPoint3@Math@UGS@@V?$SMAlloc@UPoint3@Math@UGS@@@Memory@3@@std@@@Z"
+  },
+  {
+   "ordinal": 825,
+   "name": "?a406@@YAXPEBI@Z"
+  },
+  {
+   "ordinal": 826,
+   "name": "?a877@@YAXPEAN0PEAH@Z"
+  },
+  {
+   "ordinal": 827,
+   "name": "?acom@@3Uacom_s@@A"
+  },
+  {
+   "ordinal": 828,
+   "name": "?allocate@Solver_data_s@@QEAAXHH@Z"
+  },
+  {
+   "ordinal": 829,
+   "name": "?ask_method@Solver_data_s@@QEBAHXZ"
+  },
+  {
+   "ordinal": 830,
+   "name": "?b120a@@YAXXZ"
+  },
+  {
+   "ordinal": 831,
+   "name": "?banbks@@YAXPEAPEANHHH0PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 832,
+   "name": "?bandec@@YAXPEAPEANHHH0PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 833,
+   "name": "?bc_POLE_3d_distance@@YANQEAN00@Z"
+  },
+  {
+   "ordinal": 834,
+   "name": "?bc_POLE_average_in_3d@@YAXPEAY03NHPEAY02N@Z"
+  },
+  {
+   "ordinal": 835,
+   "name": "?bc_POLE_equal_in_3d@@YAHQEAN0N@Z"
+  },
+  {
+   "ordinal": 836,
+   "name": "?bc_POLE_equal_in_4d@@YAHQEAN0@Z"
+  },
+  {
+   "ordinal": 837,
+   "name": "?bc_POLE_identical_poles_in_3d@@YAHPEAY03NH@Z"
+  },
+  {
+   "ordinal": 838,
+   "name": "?bc_POLE_project_to_line2@@YA_NQEAN000@Z"
+  },
+  {
+   "ordinal": 839,
+   "name": "?bc_POLE_project_to_line@@YAXQEAN000@Z"
+  },
+  {
+   "ordinal": 840,
+   "name": "?bc_POLE_project_to_plane@@YAXQEAN000@Z"
+  },
+  {
+   "ordinal": 841,
+   "name": "?bc_POLE_set_position@@YAXQEAN0@Z"
+  },
+  {
+   "ordinal": 842,
+   "name": "?bc_POLE_translate_pole@@YAXQEAN00@Z"
+  },
+  {
+   "ordinal": 843,
+   "name": "?bc_xyz_box@@YAXPEAUBCURVE_DATA@@PEAN1@Z"
+  },
+  {
+   "ordinal": 844,
+   "name": "?begin@Vector3f@Math@UGS@@QEAA?AV?$ArrayIterator@M@Internals@23@XZ"
+  },
+  {
+   "ordinal": 845,
+   "name": "?begin@Vector3f@Math@UGS@@QEBA?AV?$ArrayIterator@$$CBM@Internals@23@XZ"
+  },
+  {
+   "ordinal": 846,
+   "name": "?c_array@Vector3f@Math@UGS@@QEAAPEAMXZ"
+  },
+  {
+   "ordinal": 847,
+   "name": "?cbegin@Vector3f@Math@UGS@@QEBA?AV?$ArrayIterator@$$CBM@Internals@23@XZ"
+  },
+  {
+   "ordinal": 848,
+   "name": "?cend@Vector3f@Math@UGS@@QEBA?AV?$ArrayIterator@$$CBM@Internals@23@XZ"
+  },
+  {
+   "ordinal": 849,
+   "name": "?cu0007@@YAHXZ"
+  },
+  {
+   "ordinal": 850,
+   "name": "?cu0008@@YAXPEBH@Z"
+  },
+  {
+   "ordinal": 851,
+   "name": "?d7390@@YAXXZ"
+  },
+  {
+   "ordinal": 852,
+   "name": "?d7391@@YAXPEAI@Z"
+  },
+  {
+   "ordinal": 853,
+   "name": "?d7392@@YAXXZ"
+  },
+  {
+   "ordinal": 854,
+   "name": "?data@Vector3f@Math@UGS@@QEBAPEBMXZ"
+  },
+  {
+   "ordinal": 855,
+   "name": "?delaunay_vtable@@3Udelaunay_vtable_s@@A"
+  },
+  {
+   "ordinal": 856,
+   "name": "?deriveData@Box3D@Math@UGS@@AEAAXXZ"
+  },
+  {
+   "ordinal": 857,
+   "name": "?e0924@@YAXHHPEANPEAH@Z"
+  },
+  {
+   "ordinal": 858,
+   "name": "?e0924@@YAXPEAHPEAN0@Z"
+  },
+  {
+   "ordinal": 859,
+   "name": "?e0925@@YAXPEAHPEAN11@Z"
+  },
+  {
+   "ordinal": 860,
+   "name": "?e4322@@YAXPEAH0PEAN10@Z"
+  },
+  {
+   "ordinal": 861,
+   "name": "?em0154@@YAXPEANHPEAUSURF_PTS@@0@Z"
+  },
+  {
+   "ordinal": 862,
+   "name": "?em0156@@YAXPEBNHPEAUCURVE_PTS@@PEAN@Z"
+  },
+  {
+   "ordinal": 863,
+   "name": "?em0156c@@YAXPEBNHPEAUCURVE_PTS@@PEAN@Z"
+  },
+  {
+   "ordinal": 864,
+   "name": "?em0200@@YAXPEBN0PEAN11@Z"
+  },
+  {
+   "ordinal": 865,
+   "name": "?em0911@@YAXPEAHPEAN111@Z"
+  },
+  {
+   "ordinal": 866,
+   "name": "?em0912@@YAXPEAHPEAN111@Z"
+  },
+  {
+   "ordinal": 867,
+   "name": "?em0914@@YAXPEAHPEAN11@Z"
+  },
+  {
+   "ordinal": 868,
+   "name": "?em0916@@YAXPEANPEAH10100@Z"
+  },
+  {
+   "ordinal": 869,
+   "name": "?em0923@@YAXPEAHPEANPEAY03N122@Z"
+  },
+  {
+   "ordinal": 870,
+   "name": "?em0925_a@@YAXHHPEANNPEAH1@Z"
+  },
+  {
+   "ordinal": 871,
+   "name": "?em0926@@YAXPEAHPEAN01@Z"
+  },
+  {
+   "ordinal": 872,
+   "name": "?em0928@@YAHPEBH0PEBN@Z"
+  },
+  {
+   "ordinal": 873,
+   "name": "?em0928_b@@YAHHHPEAN@Z"
+  },
+  {
+   "ordinal": 874,
+   "name": "?end@Vector3f@Math@UGS@@QEAA?AV?$ArrayIterator@M@Internals@23@XZ"
+  },
+  {
+   "ordinal": 875,
+   "name": "?end@Vector3f@Math@UGS@@QEBA?AV?$ArrayIterator@$$CBM@Internals@23@XZ"
+  },
+  {
+   "ordinal": 876,
+   "name": "?eqz@@YAHPEBN0PEBH@Z"
+  },
+  {
+   "ordinal": 877,
+   "name": "?fe358@@YAXPEAHPEAN0@Z"
+  },
+  {
+   "ordinal": 878,
+   "name": "?find_closest_reals@@YAHHPEANHHN@Z"
+  },
+  {
+   "ordinal": 879,
+   "name": "?gbspline_vtable@@3Ugbspline_vtable_t@@A"
+  },
+  {
+   "ordinal": 880,
+   "name": "?getIntersectStatus@Box3D@Math@UGS@@AEBA_NAEBV123@N@Z"
+  },
+  {
+   "ordinal": 881,
+   "name": "?getPointStatus@Box3D@Math@UGS@@AEBAXAEBUPoint3@23@AEAH11N@Z"
+  },
+  {
+   "ordinal": 882,
+   "name": "?get_unique_reals@@YAXPEANHPEAPEANPEAH@Z"
+  },
+  {
+   "ordinal": 883,
+   "name": "?h0005@@YAXPEAN000PEAH@Z"
+  },
+  {
+   "ordinal": 884,
+   "name": "?h000@@YAXPEAN@Z"
+  },
+  {
+   "ordinal": 885,
+   "name": "?h002@@YAXPEANPEBN@Z"
+  },
+  {
+   "ordinal": 886,
+   "name": "?h003@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 887,
+   "name": "?h004@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 888,
+   "name": "?h0062@@YAXPEANPEAH001@Z"
+  },
+  {
+   "ordinal": 889,
+   "name": "?h0063@@YAXPEANPEBN1PEBH1PEAH30@Z"
+  },
+  {
+   "ordinal": 890,
+   "name": "?h0065@@YAXPEAN000@Z"
+  },
+  {
+   "ordinal": 891,
+   "name": "?h006@@YAXPEANPEBN1PEBH1PEAH3@Z"
+  },
+  {
+   "ordinal": 892,
+   "name": "?h009@@YAXPEAN0PEAH0@Z"
+  },
+  {
+   "ordinal": 893,
+   "name": "?h010@@YAXPEAN0PEAH0@Z"
+  },
+  {
+   "ordinal": 894,
+   "name": "?h012@@YAXPEAN00PEAH@Z"
+  },
+  {
+   "ordinal": 895,
+   "name": "?h013@@YAXPEAN000@Z"
+  },
+  {
+   "ordinal": 896,
+   "name": "?h014@@YAXPEAN00PEAH11@Z"
+  },
+  {
+   "ordinal": 897,
+   "name": "?h015@@YAXPEAN0000PEAH@Z"
+  },
+  {
+   "ordinal": 898,
+   "name": "?h015a@@YAXPEAN0000PEAH@Z"
+  },
+  {
+   "ordinal": 899,
+   "name": "?h016@@YAXPEAN00PEAH11@Z"
+  },
+  {
+   "ordinal": 900,
+   "name": "?h017@@YAXPEAN00@Z"
+  },
+  {
+   "ordinal": 901,
+   "name": "?h018@@YAXPEANPEAH0@Z"
+  },
+  {
+   "ordinal": 902,
+   "name": "?h01901@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 903,
+   "name": "?h01905@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 904,
+   "name": "?h019@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 905,
+   "name": "?h020@@YAXPEBN00PEAN1PEAH@Z"
+  },
+  {
+   "ordinal": 906,
+   "name": "?h022@@YAXPEBHPEAN1@Z"
+  },
+  {
+   "ordinal": 907,
+   "name": "?h040@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 908,
+   "name": "?h041@@YAHPEBN@Z"
+  },
+  {
+   "ordinal": 909,
+   "name": "?h053@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 910,
+   "name": "?h053a@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 911,
+   "name": "?h055@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 912,
+   "name": "?h058@@YAXPEBN0PEBHPEAN@Z"
+  },
+  {
+   "ordinal": 913,
+   "name": "?h059@@YAXPEAN0PEBN1@Z"
+  },
+  {
+   "ordinal": 914,
+   "name": "?h0602@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 915,
+   "name": "?h060@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 916,
+   "name": "?h061@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 917,
+   "name": "?h0700@@YAXPEBN00000PEAN@Z"
+  },
+  {
+   "ordinal": 918,
+   "name": "?h0701@@YAXPEBN00000PEAN@Z"
+  },
+  {
+   "ordinal": 919,
+   "name": "?h070@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 920,
+   "name": "?h0710@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 921,
+   "name": "?h0711@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 922,
+   "name": "?h071@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 923,
+   "name": "?h0720@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 924,
+   "name": "?h0721@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 925,
+   "name": "?h0722@@YAXPEBN000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 926,
+   "name": "?h07312@@YAXPEBH0PEBN1PEAN2@Z"
+  },
+  {
+   "ordinal": 927,
+   "name": "?h07313@@YAXPEBH0PEBN1PEAN@Z"
+  },
+  {
+   "ordinal": 928,
+   "name": "?h07314@@YAXPEBH0PEBN1PEAN@Z"
+  },
+  {
+   "ordinal": 929,
+   "name": "?h07315@@YAXPEBN0PEAH@Z"
+  },
+  {
+   "ordinal": 930,
+   "name": "?h07318@@YAXPEBH0PEBN1PEAN2PEAH3@Z"
+  },
+  {
+   "ordinal": 931,
+   "name": "?h0731@@YAXPEBN0PEAH@Z"
+  },
+  {
+   "ordinal": 932,
+   "name": "?h0732@@YAXPEBHPEBN11PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 933,
+   "name": "?h0733@@YAXXZ"
+  },
+  {
+   "ordinal": 934,
+   "name": "?h0734@@YAXPEANPEAH@Z"
+  },
+  {
+   "ordinal": 935,
+   "name": "?h0735@@YAXPEBNPEBHPEAN2PEAH@Z"
+  },
+  {
+   "ordinal": 936,
+   "name": "?h07362@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 937,
+   "name": "?h07363@@YAXPEBH0PEBN11PEAH2@Z"
+  },
+  {
+   "ordinal": 938,
+   "name": "?h07366@@YAXPEBHPEBN1PEAN2@Z"
+  },
+  {
+   "ordinal": 939,
+   "name": "?h0736@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 940,
+   "name": "?h0737@@YAXPEBN0PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 941,
+   "name": "?h0738@@YAXPEAHPEAN@Z"
+  },
+  {
+   "ordinal": 942,
+   "name": "?h0739@@YAXPEBHPEAN@Z"
+  },
+  {
+   "ordinal": 943,
+   "name": "?h0740@@YAXPEBN00000PEAN1@Z"
+  },
+  {
+   "ordinal": 944,
+   "name": "?h0741@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 945,
+   "name": "?h0742@@YAXPEAHPEAN@Z"
+  },
+  {
+   "ordinal": 946,
+   "name": "?h0745@@YAXPEAHPEAN@Z"
+  },
+  {
+   "ordinal": 947,
+   "name": "?h0747@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 948,
+   "name": "?h07600@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 949,
+   "name": "?h081@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 950,
+   "name": "?h082@@YAXPEBN000PEAH@Z"
+  },
+  {
+   "ordinal": 951,
+   "name": "?h083@@YAXPEBN0PEAH@Z"
+  },
+  {
+   "ordinal": 952,
+   "name": "?h0900@@YAXPEBHPEBN11PEAN@Z"
+  },
+  {
+   "ordinal": 953,
+   "name": "?h0901@@YAXPEBHPEBN11PEAN@Z"
+  },
+  {
+   "ordinal": 954,
+   "name": "?h0902@@YAXPEBN00PEAN1@Z"
+  },
+  {
+   "ordinal": 955,
+   "name": "?h0903@@YAXPEBN00PEAN1@Z"
+  },
+  {
+   "ordinal": 956,
+   "name": "?h0904@@YAXPEBN00PEAN1@Z"
+  },
+  {
+   "ordinal": 957,
+   "name": "?h0905@@YAXPEBN00PEAN1@Z"
+  },
+  {
+   "ordinal": 958,
+   "name": "?h0908@@YAXPEBHPEBN11PEAN2@Z"
+  },
+  {
+   "ordinal": 959,
+   "name": "?h0909@@YAXPEBHPEBN110PEAN@Z"
+  },
+  {
+   "ordinal": 960,
+   "name": "?h090@@YAXPEBN0PEAH@Z"
+  },
+  {
+   "ordinal": 961,
+   "name": "?h0910@@YAXPEBH0PEBNPEAN@Z"
+  },
+  {
+   "ordinal": 962,
+   "name": "?h0910c@@YAXPEBH0PEAHPEAN1@Z"
+  },
+  {
+   "ordinal": 963,
+   "name": "?h0911@@YAXHPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 964,
+   "name": "?h0913@@YAHPEBHPEBN1101PEAHPEAN3@Z"
+  },
+  {
+   "ordinal": 965,
+   "name": "?h0913a2@@YAHPEBHPEBN11011PEAN@Z"
+  },
+  {
+   "ordinal": 966,
+   "name": "?h0913a@@YAHPEBHPEBN11011PEAN@Z"
+  },
+  {
+   "ordinal": 967,
+   "name": "?h0913b@@YAHPEBHPEBN11011PEAN@Z"
+  },
+  {
+   "ordinal": 968,
+   "name": "?h0914@@YAHPEBHPEBN1PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 969,
+   "name": "?h0915@@YAXPEBHPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 970,
+   "name": "?h0916@@YAHHPEBNHHNHQEAN@Z"
+  },
+  {
+   "ordinal": 971,
+   "name": "?h0917@@YAHNPEBNHN@Z"
+  },
+  {
+   "ordinal": 972,
+   "name": "?h0917x@@YAHNPEBNHHN@Z"
+  },
+  {
+   "ordinal": 973,
+   "name": "?h0918@@YAHPEANPEBNHH@Z"
+  },
+  {
+   "ordinal": 974,
+   "name": "?h091@@YAXPEBN0PEAH@Z"
+  },
+  {
+   "ordinal": 975,
+   "name": "?h0925@@YAHPEBHPEBN1PEAHPEAN3@Z"
+  },
+  {
+   "ordinal": 976,
+   "name": "?h0925_chk@@YAHHPEANPEBN@Z"
+  },
+  {
+   "ordinal": 977,
+   "name": "?h0926@@YAXPEBHPEBN110PEAN@Z"
+  },
+  {
+   "ordinal": 978,
+   "name": "?h0926a2@@YAXPEBHPEBN11101PEAPEANPEAN@Z"
+  },
+  {
+   "ordinal": 979,
+   "name": "?h0926a@@YAXPEBHPEBN11101PEAPEANPEAN@Z"
+  },
+  {
+   "ordinal": 980,
+   "name": "?h0927@@YAXPEBHPEBN1QEAN@Z"
+  },
+  {
+   "ordinal": 981,
+   "name": "?h0928@@YAHPEBHPEBN110PEAPEAPEAN@Z"
+  },
+  {
+   "ordinal": 982,
+   "name": "?h0928a2@@YAHPEBHPEBN110AEAUSolver_data_s@@@Z"
+  },
+  {
+   "ordinal": 983,
+   "name": "?h0929@@YAHQEAHQEAN1PEAPEANPEAN@Z"
+  },
+  {
+   "ordinal": 984,
+   "name": "?h0929a2@@YAHQEAHQEAN1AEAUSolver_data_s@@PEAN@Z"
+  },
+  {
+   "ordinal": 985,
+   "name": "?h099@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 986,
+   "name": "?h099a@@YAXPEANN0@Z"
+  },
+  {
+   "ordinal": 987,
+   "name": "?h1000@@YAXPEBN00PEAN111PEAH@Z"
+  },
+  {
+   "ordinal": 988,
+   "name": "?h1006@@YAXPEBHPEBN1PEAN@Z"
+  },
+  {
+   "ordinal": 989,
+   "name": "?h100@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 990,
+   "name": "?h101@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 991,
+   "name": "?h102@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 992,
+   "name": "?h104@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 993,
+   "name": "?h105@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 994,
+   "name": "?h106@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 995,
+   "name": "?h110@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 996,
+   "name": "?h111@@YAXQEAN0@Z"
+  },
+  {
+   "ordinal": 997,
+   "name": "?h114@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 998,
+   "name": "?h116@@YAXPEBN0000PEAN@Z"
+  },
+  {
+   "ordinal": 999,
+   "name": "?h120@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1000,
+   "name": "?h121@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1001,
+   "name": "?h122@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1002,
+   "name": "?h123@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1003,
+   "name": "?h125@@YAXPEBNPEANPEAH@Z"
+  },
+  {
+   "ordinal": 1004,
+   "name": "?h126a@@YAHPEAPEANH0@Z"
+  },
+  {
+   "ordinal": 1005,
+   "name": "?h128@@YANNN@Z"
+  },
+  {
+   "ordinal": 1006,
+   "name": "?h130@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 1007,
+   "name": "?h140@@YAXPEBN000PEAN1@Z"
+  },
+  {
+   "ordinal": 1008,
+   "name": "?h150@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1009,
+   "name": "?h1600@@YAXPEBN0PEANPEAH@Z"
+  },
+  {
+   "ordinal": 1010,
+   "name": "?h160@@YAXQEAN@Z"
+  },
+  {
+   "ordinal": 1011,
+   "name": "?h200@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1012,
+   "name": "?h201@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1013,
+   "name": "?h202@@YAXPEBN0PEAH@Z"
+  },
+  {
+   "ordinal": 1014,
+   "name": "?h203@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 1015,
+   "name": "?h204@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 1016,
+   "name": "?h205@@YAXPEBNPEANPEAH@Z"
+  },
+  {
+   "ordinal": 1017,
+   "name": "?h206@@YAXPEAN00PEAH@Z"
+  },
+  {
+   "ordinal": 1018,
+   "name": "?h210@@YAXPEBHPEBN11PEAN2@Z"
+  },
+  {
+   "ordinal": 1019,
+   "name": "?h217@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1020,
+   "name": "?h220@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1021,
+   "name": "?h221@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1022,
+   "name": "?h222@@YAXPEBHPEBN111PEAN@Z"
+  },
+  {
+   "ordinal": 1023,
+   "name": "?h223@@YAXPEBN00PEAN1@Z"
+  },
+  {
+   "ordinal": 1024,
+   "name": "?h224@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1025,
+   "name": "?h230@@YAXPEBN0PEAHPEAN22@Z"
+  },
+  {
+   "ordinal": 1026,
+   "name": "?h260@@YAXPEBHPEBN1111PEAN@Z"
+  },
+  {
+   "ordinal": 1027,
+   "name": "?h262@@YAXPEBHPEBN111111PEAN@Z"
+  },
+  {
+   "ordinal": 1028,
+   "name": "?h264@@YAXPEBHPEBN1111PEAN@Z"
+  },
+  {
+   "ordinal": 1029,
+   "name": "?h270@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1030,
+   "name": "?h271@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1031,
+   "name": "?h272a@@YAXPEBN0PEAN1@Z"
+  },
+  {
+   "ordinal": 1032,
+   "name": "?h272b@@YAXPEBN00PEBHPEAH@Z"
+  },
+  {
+   "ordinal": 1033,
+   "name": "?h273@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 1034,
+   "name": "?h274@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 1035,
+   "name": "?h275@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1036,
+   "name": "?h300@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1037,
+   "name": "?h301@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1038,
+   "name": "?h302@@YAXPEBN0PEAH@Z"
+  },
+  {
+   "ordinal": 1039,
+   "name": "?h303@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 1040,
+   "name": "?h306@@YAXPEBN0PEAH@Z"
+  },
+  {
+   "ordinal": 1041,
+   "name": "?h307@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 1042,
+   "name": "?h309@@YAXPEBN000PEAN1@Z"
+  },
+  {
+   "ordinal": 1043,
+   "name": "?h310@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1044,
+   "name": "?h311@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1045,
+   "name": "?h312@@YAXPEBN000PEAH@Z"
+  },
+  {
+   "ordinal": 1046,
+   "name": "?h313@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1047,
+   "name": "?h314@@YAXPEBN00PEAN1@Z"
+  },
+  {
+   "ordinal": 1048,
+   "name": "?h315@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1049,
+   "name": "?h316@@YAXPEAN0000000@Z"
+  },
+  {
+   "ordinal": 1050,
+   "name": "?h318@@YAXPEBN00PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1051,
+   "name": "?h319@@YAXPEAN00PEAH@Z"
+  },
+  {
+   "ordinal": 1052,
+   "name": "?h319a@@YAXPEAN00NPEAH@Z"
+  },
+  {
+   "ordinal": 1053,
+   "name": "?h330@@YANPEAN000@Z"
+  },
+  {
+   "ordinal": 1054,
+   "name": "?h400@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1055,
+   "name": "?h401@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1056,
+   "name": "?h402@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1057,
+   "name": "?h403@@YAXPEBN00PEAN1@Z"
+  },
+  {
+   "ordinal": 1058,
+   "name": "?h405@@YAXPEBHPEBN11111PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1059,
+   "name": "?h4301@@YAXPEBHPEBN111PEAN22@Z"
+  },
+  {
+   "ordinal": 1060,
+   "name": "?h430@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1061,
+   "name": "?h431@@YAXPEBN00PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1062,
+   "name": "?h434@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 1063,
+   "name": "?h435@@YAXPEBN0000PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1064,
+   "name": "?h500@@YAXQEANPEAN0PEAH00@Z"
+  },
+  {
+   "ordinal": 1065,
+   "name": "?h501@@YAXQEANPEAN000@Z"
+  },
+  {
+   "ordinal": 1066,
+   "name": "?h502@@YAXPEBHPEBN11111PEAHPEAN3@Z"
+  },
+  {
+   "ordinal": 1067,
+   "name": "?h503@@YAXPEBHPEBN11111PEAHPEAN3@Z"
+  },
+  {
+   "ordinal": 1068,
+   "name": "?h507@@YAXPEBN00PEAN1PEAH@Z"
+  },
+  {
+   "ordinal": 1069,
+   "name": "?h510@@YAXPEBN000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1070,
+   "name": "?h512@@YAXPEBHPEBN111111PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1071,
+   "name": "?h520@@YAXPEBN00PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1072,
+   "name": "?h525@@YAXPEBN0PEANPEAH@Z"
+  },
+  {
+   "ordinal": 1073,
+   "name": "?h5500t@@YAHPEBN00@Z"
+  },
+  {
+   "ordinal": 1074,
+   "name": "?h55030@@YAXPEBN0000000PEBHPEAN@Z"
+  },
+  {
+   "ordinal": 1075,
+   "name": "?h550@@YAXPEBN00000PEBHPEAN@Z"
+  },
+  {
+   "ordinal": 1076,
+   "name": "?h551@@YAXPEBN0PEBH11PEAN@Z"
+  },
+  {
+   "ordinal": 1077,
+   "name": "?h553@@YAXPEBN00000PEBHPEAN@Z"
+  },
+  {
+   "ordinal": 1078,
+   "name": "?h600@@YAXPEBN000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1079,
+   "name": "?h600a@@YAXPEBN000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1080,
+   "name": "?h601@@YAXPEBN0PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1081,
+   "name": "?h602a@@YAXPEBN000PEAN1PEAH@Z"
+  },
+  {
+   "ordinal": 1082,
+   "name": "?h603@@YAXPEBN000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1083,
+   "name": "?h605@@YAXPEBN000PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1084,
+   "name": "?h607@@YAXPEBN000PEAHPEAN22@Z"
+  },
+  {
+   "ordinal": 1085,
+   "name": "?h609@@YAXPEBN000PEAHPEAN2N@Z"
+  },
+  {
+   "ordinal": 1086,
+   "name": "?h610@@YAXPEBN000PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1087,
+   "name": "?h611@@YAXPEBN00PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1088,
+   "name": "?h612@@YAXPEBN00PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1089,
+   "name": "?h613@@YAXPEBN00PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1090,
+   "name": "?h614@@YAXPEBN00PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1091,
+   "name": "?h614a@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1092,
+   "name": "?h615@@YAXPEBN0PEBH0PEAHPEAN3@Z"
+  },
+  {
+   "ordinal": 1093,
+   "name": "?h616@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1094,
+   "name": "?h629@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1095,
+   "name": "?h630@@YAXPEBN000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1096,
+   "name": "?h631@@YAXPEAN000PEAH0@Z"
+  },
+  {
+   "ordinal": 1097,
+   "name": "?h631a@@YAXPEAN000NPEAH0@Z"
+  },
+  {
+   "ordinal": 1098,
+   "name": "?h632@@YAXPEBNPEAN01PEAH1@Z"
+  },
+  {
+   "ordinal": 1099,
+   "name": "?h633@@YAXPEBN000PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1100,
+   "name": "?h6343@@YAXPEBN00000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1101,
+   "name": "?h634@@YAXPEBN000PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1102,
+   "name": "?h6352@@YAXPEBN00PEAN11PEAH@Z"
+  },
+  {
+   "ordinal": 1103,
+   "name": "?h6353@@YAXPEBN00PEAN11PEAH@Z"
+  },
+  {
+   "ordinal": 1104,
+   "name": "?h6354@@YAXPEBN00PEAN11PEAH@Z"
+  },
+  {
+   "ordinal": 1105,
+   "name": "?h6355@@YAXPEAN00PEAH@Z"
+  },
+  {
+   "ordinal": 1106,
+   "name": "?h6357a@@YAXPEBN00PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1107,
+   "name": "?h6357b@@YAXPEBN000PEAH1PEAN@Z"
+  },
+  {
+   "ordinal": 1108,
+   "name": "?h635@@YAXPEBN000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1109,
+   "name": "?h636@@YAXPEBN00PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1110,
+   "name": "?h637@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1111,
+   "name": "?h6381@@YAXPEBN00PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1112,
+   "name": "?h638@@YAXPEBN00PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1113,
+   "name": "?h641@@YAXPEBN0000PEAH1PEAN@Z"
+  },
+  {
+   "ordinal": 1114,
+   "name": "?h642@@YAXPEBN0000000PEAH1PEAN@Z"
+  },
+  {
+   "ordinal": 1115,
+   "name": "?h649y@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1116,
+   "name": "?h651@@YAXPEBN0000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1117,
+   "name": "?h652@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1118,
+   "name": "?h670@@YAHPEBN0@Z"
+  },
+  {
+   "ordinal": 1119,
+   "name": "?h701@@YAXPEBN00PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1120,
+   "name": "?h702@@YAXPEANPEBN1PEAH@Z"
+  },
+  {
+   "ordinal": 1121,
+   "name": "?h703@@YAXPEANPEBN1PEAH@Z"
+  },
+  {
+   "ordinal": 1122,
+   "name": "?h704@@YAXPEBN00PEAN1@Z"
+  },
+  {
+   "ordinal": 1123,
+   "name": "?h705@@YAXPEBHPEBN111PEAN@Z"
+  },
+  {
+   "ordinal": 1124,
+   "name": "?h706@@YAXQEAN00PEAH@Z"
+  },
+  {
+   "ordinal": 1125,
+   "name": "?h7092@@YAXQEAY02NQEAN11111@Z"
+  },
+  {
+   "ordinal": 1126,
+   "name": "?h750@@YAXPEBNPEAH@Z"
+  },
+  {
+   "ordinal": 1127,
+   "name": "?h800@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1128,
+   "name": "?h801@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1129,
+   "name": "?h802@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1130,
+   "name": "?h804@@YAXPEANPEBNPEBHPEAH@Z"
+  },
+  {
+   "ordinal": 1131,
+   "name": "?h805@@YAXPEBN0PEBHPEAH@Z"
+  },
+  {
+   "ordinal": 1132,
+   "name": "?h806@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 1133,
+   "name": "?h807@@YAXPEBN0PEBH1PEAH@Z"
+  },
+  {
+   "ordinal": 1134,
+   "name": "?h808@@YAXPEBN00PEBHPEAH@Z"
+  },
+  {
+   "ordinal": 1135,
+   "name": "?h809@@YAXPEANPEBNPEBHPEAH@Z"
+  },
+  {
+   "ordinal": 1136,
+   "name": "?h809a@@YAXPEBN0PEBHPEAH@Z"
+  },
+  {
+   "ordinal": 1137,
+   "name": "?h810@@YAXPEBN000000PEAN@Z"
+  },
+  {
+   "ordinal": 1138,
+   "name": "?h811@@YAXPEBN000000PEAN@Z"
+  },
+  {
+   "ordinal": 1139,
+   "name": "?h812@@YAXPEBN000000PEAN@Z"
+  },
+  {
+   "ordinal": 1140,
+   "name": "?h81304@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1141,
+   "name": "?h813@@YAXPEBHPEBN11PEAN@Z"
+  },
+  {
+   "ordinal": 1142,
+   "name": "?h814@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1143,
+   "name": "?h815@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1144,
+   "name": "?h816@@YAXPEANPEBN1PEAH@Z"
+  },
+  {
+   "ordinal": 1145,
+   "name": "?h821@@YAXPEBN0PEAHPEAN2@Z"
+  },
+  {
+   "ordinal": 1146,
+   "name": "?h822@@YAXPEBN00000PEAN11@Z"
+  },
+  {
+   "ordinal": 1147,
+   "name": "?h823@@YAXPEBN00000PEAN@Z"
+  },
+  {
+   "ordinal": 1148,
+   "name": "?h830@@YAXPEBN0PEANPEAH@Z"
+  },
+  {
+   "ordinal": 1149,
+   "name": "?h835@@YAXPEBN0000000PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1150,
+   "name": "?h837@@YAXPEAN0PEBN@Z"
+  },
+  {
+   "ordinal": 1151,
+   "name": "?h840@@YAXPEBN0000000PEAH@Z"
+  },
+  {
+   "ordinal": 1152,
+   "name": "?h850@@YAXPEBN00PEAH@Z"
+  },
+  {
+   "ordinal": 1153,
+   "name": "?h881@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1154,
+   "name": "?h922@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 1155,
+   "name": "?h923@@YAXPEAN00@Z"
+  },
+  {
+   "ordinal": 1156,
+   "name": "?h924@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 1157,
+   "name": "?h929@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1158,
+   "name": "?h954@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1159,
+   "name": "?h955@@YAXPEBN000PEAN1@Z"
+  },
+  {
+   "ordinal": 1160,
+   "name": "?h956@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1161,
+   "name": "?h957@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1162,
+   "name": "?h958@@YAXPEBN000PEAN1@Z"
+  },
+  {
+   "ordinal": 1163,
+   "name": "?h959@@YAXPEBN000PEAN@Z"
+  },
+  {
+   "ordinal": 1164,
+   "name": "?h960@@YAXPEBN00PEANPEAH@Z"
+  },
+  {
+   "ordinal": 1165,
+   "name": "?h961@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1166,
+   "name": "?h962@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1167,
+   "name": "?h963@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1168,
+   "name": "?h964@@YAXPEBN0PEAN@Z"
+  },
+  {
+   "ordinal": 1169,
+   "name": "?h965@@YAXPEANPEBN@Z"
+  },
+  {
+   "ordinal": 1170,
+   "name": "?h981@@YAXPEBN00PEAN@Z"
+  },
+  {
+   "ordinal": 1171,
+   "name": "?hp6357@@YAXPEBN00PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1172,
+   "name": "?hp6358@@YAXPEBN0000PEAH1PEAN@Z"
+  },
+  {
+   "ordinal": 1173,
+   "name": "?hungarian_free@@YAXPEAUhungarian_problem_t@@@Z"
+  },
+  {
+   "ordinal": 1174,
+   "name": "?hungarian_init@@YAHPEAUhungarian_problem_t@@PEAPEANHHH@Z"
+  },
+  {
+   "ordinal": 1175,
+   "name": "?hungarian_solve@@YAHPEAUhungarian_problem_t@@@Z"
+  },
+  {
+   "ordinal": 1176,
+   "name": "?ingrip@@YAHXZ"
+  },
+  {
+   "ordinal": 1177,
+   "name": "?isInteriorPoint@Box3D@Math@UGS@@AEBA_NAEBUPoint3@23@QEAN@Z"
+  },
+  {
+   "ordinal": 1178,
+   "name": "?isPointInside@Box3D@Math@UGS@@AEBA_NAEBUPoint3@23@QEAN@Z"
+  },
+  {
+   "ordinal": 1179,
+   "name": "?j2586@@YAXPEAN000@Z"
+  },
+  {
+   "ordinal": 1180,
+   "name": "?k255b@@YAXPEAN00PEAH@Z"
+  },
+  {
+   "ordinal": 1181,
+   "name": "?k25h4@@YAXPEAN00PEAH@Z"
+  },
+  {
+   "ordinal": 1182,
+   "name": "?k25ha@@YAXPEANPEAH0@Z"
+  },
+  {
+   "ordinal": 1183,
+   "name": "?k4306c@@YAXHHPEAPEAY03NHHPEAH1@Z"
+  },
+  {
+   "ordinal": 1184,
+   "name": "?k4307c@@YAXHHPEAPEAY03NPEAH111@Z"
+  },
+  {
+   "ordinal": 1185,
+   "name": "?k71433@@YAXPEAN0PEAH@Z"
+  },
+  {
+   "ordinal": 1186,
+   "name": "?knot_seq_order_4@@YAHPEBHPEBN1PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1187,
+   "name": "?lubksb_a@@YAXPEAPEANHPEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1188,
+   "name": "?ludcmp_a@@YAHPEAPEANHPEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1189,
+   "name": "?ludcmp_a_with_abort@@YAHPEAPEANHPEAHPEANP6A_NXZ@Z"
+  },
+  {
+   "ordinal": 1190,
+   "name": "?m4024@@YAXPEAN00@Z"
+  },
+  {
+   "ordinal": 1191,
+   "name": "?m4028@@YAXPEAN00PEAH0@Z"
+  },
+  {
+   "ordinal": 1192,
+   "name": "?m4029@@YAXPEAN00PEAH@Z"
+  },
+  {
+   "ordinal": 1193,
+   "name": "?m4045@@YAXPEAN0PEAH011@Z"
+  },
+  {
+   "ordinal": 1194,
+   "name": "?m4053@@YAXPEAN0PEAH@Z"
+  },
+  {
+   "ordinal": 1195,
+   "name": "?m511@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 1196,
+   "name": "?m_disTol@StlPoint3Less@UGS@@0NA"
+  },
+  {
+   "ordinal": 1197,
+   "name": "?m_distanceTolerance@Graph@Math@UGS@@0NA"
+  },
+  {
+   "ordinal": 1198,
+   "name": "?map10@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 1199,
+   "name": "?map11@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 1200,
+   "name": "?map12@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 1201,
+   "name": "?map13@@YAXPEBNPEAN@Z"
+  },
+  {
+   "ordinal": 1202,
+   "name": "?map22@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 1203,
+   "name": "?map23@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 1204,
+   "name": "?mappaw@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 1205,
+   "name": "?mappwa@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 1206,
+   "name": "?mapvaw@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 1207,
+   "name": "?mapvwa@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 1208,
+   "name": "?match_sorted_reals@@YAHHPEANH0PEAH@Z"
+  },
+  {
+   "ordinal": 1209,
+   "name": "?mconvert_banded@@YAXPEAPEANHH0@Z"
+  },
+  {
+   "ordinal": 1210,
+   "name": "?mdecompose_banded@@YAXPEAPEANHH@Z"
+  },
+  {
+   "ordinal": 1211,
+   "name": "?mdispose_banded@@YAXPEAPEAPEANPEAPEAN@Z"
+  },
+  {
+   "ordinal": 1212,
+   "name": "?mdump_banded@@YAXPEAPEANPEANHH@Z"
+  },
+  {
+   "ordinal": 1213,
+   "name": "?merrorflush@@YAHXZ"
+  },
+  {
+   "ordinal": 1214,
+   "name": "?merrorlevel@@YAHXZ"
+  },
+  {
+   "ordinal": 1215,
+   "name": "?merrornum@@YAHXZ"
+  },
+  {
+   "ordinal": 1216,
+   "name": "?merrorpush@@YAXQEADHH@Z"
+  },
+  {
+   "ordinal": 1217,
+   "name": "?msetup_banded@@YAXHHPEAPEAPEANPEAPEAN@Z"
+  },
+  {
+   "ordinal": 1218,
+   "name": "?msolve_banded@@YAXPEAPEANHHPEAN@Z"
+  },
+  {
+   "ordinal": 1219,
+   "name": "?set_method@Solver_data_s@@QEAAXH@Z"
+  },
+  {
+   "ordinal": 1220,
+   "name": "?size@Vector3f@Math@UGS@@QEBAHXZ"
+  },
+  {
+   "ordinal": 1221,
+   "name": "?spint@@3Uspint_s@@A"
+  },
+  {
+   "ordinal": 1222,
+   "name": "?v6037a@@YAXPEAN00@Z"
+  },
+  {
+   "ordinal": 1223,
+   "name": "?v6042@@YAXPEAN00000PEAH@Z"
+  },
+  {
+   "ordinal": 1224,
+   "name": "?v6043@@YAXPEAN0000PEAH@Z"
+  },
+  {
+   "ordinal": 1225,
+   "name": "?v6043_normal@@YAXPEAN00000PEAH@Z"
+  },
+  {
+   "ordinal": 1226,
+   "name": "?v6045@@YAXPEAN0000PEAH@Z"
+  },
+  {
+   "ordinal": 1227,
+   "name": "?v6049@@YAXPEANPEAH01001@Z"
+  },
+  {
+   "ordinal": 1228,
+   "name": "?v6051@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 1229,
+   "name": "?v6057@@YAXPEANPEAH01001@Z"
+  },
+  {
+   "ordinal": 1230,
+   "name": "?v6060@@YAXQEAN0@Z"
+  },
+  {
+   "ordinal": 1231,
+   "name": "?v6066@@YAXPEAN0@Z"
+  },
+  {
+   "ordinal": 1232,
+   "name": "?v6067@@YAXPEAN00000PEAH@Z"
+  },
+  {
+   "ordinal": 1233,
+   "name": "?vcru3@@YAXPEBN0PEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1234,
+   "name": "?vunt2@@YAXPEBNPEAHPEAN@Z"
+  },
+  {
+   "ordinal": 1235,
+   "name": "?vunt3@@YAXPEBNPEAHPEAN@Z"
+  }
+ ]
+}

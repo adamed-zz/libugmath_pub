@@ -1,0 +1,14 @@
+--- running build_static.py
+--- running build_link_r8.py
+reference : C:\Users\codexvm\Desktop\ws\data\result\libugmath\bin\libugmath.dll  (887296 bytes, sha256 3c913759e68bdf0597098218c96ac7e93c33c9a4c8f19e87a32c944952562e14)
+rebuilt   : C:\Users\codexvm\AppData\Local\Temp\ugm_rebuild_wjoxrzl5\build\out\libugmath.dll  (887296 bytes, sha256 6fa17fbd9e2f6e316f7c80cec1775cc1cb65cd39ee080793335e9d49991393be)
+[gate1] normalized byte-identity (PE + debug-directory timestamps zeroed): PASS
+        normalized sha256: 9c4d404f890d6aaf3be78ebe34dd598e3d7b569d32e01f77792094591b02e444
+[gate2] section-by-section comparison:
+        .text      raw= 702464  equal
+        .rdata     raw= 152064  DIFFER
+        .data      raw=   1536  equal
+        .pdata     raw=  29184  equal
+        .reloc     raw=   1024  equal
+[gate3] export table: raw=1235 names, rebuilt=1235 names, missing=0, extra=0 -> PASS
+RESULT: PASS
